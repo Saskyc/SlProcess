@@ -1,10 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Exiled.Events.EventArgs.Player;
-using Exiled.Events.Handlers;
 using PlayerRoles;
-using UnityEngine;
-using VeryEpicEventPlugin.Interfaces;
+using VeryEpicEventPlugin.Utilities;
 
 namespace VeryEpicEventPlugin.Events;
 

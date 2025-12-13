@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
+using JetBrains.Annotations;
 using LabApi.Features.Console;
 using VeryEpicEventPlugin.Interfaces;
+using VeryEpicEventPlugin.Utilities;
 
 namespace VeryEpicEventPlugin;
 
 public abstract class SlEvent
 {
-    public static List<SlEvent> Instances = [];
+    public static Dictionary<int, SlEvent> Instances = [];
         
     public abstract string Name { get; set; }
     public abstract int Id { get; set; }
@@ -18,6 +19,8 @@ public abstract class SlEvent
 
     public virtual List<IEventRegistry> EventRegistry { get; set; } = [];
     public virtual List<Loop> Coroutines { get; set; } = [];
+    
+    public virtual List<Delayed> Delays { get; set; } = [];
     
     public virtual void Start()
     {
@@ -46,8 +49,8 @@ public abstract class SlEvent
             {
                 Logger.Error($"Instance could not be created for: {type.FullName}");
             }
-            
-            Instances.Add(instance);
+
+            Instances[instance.Id] = instance;
         }
     }
 
@@ -58,18 +61,13 @@ public abstract class SlEvent
 
     public static bool Start(int id)
     {
-        for (var index = 0; index < Instances.Count; index++)
+        if (!Instances.TryGetValue(id, out var ev))
         {
-            if (Instances[index].Id != id)
-            {
-                continue;
-            }
-
-            Instances[index].StartEvent();
-            return true;
+            return false;
         }
-
-        return false;
+        
+        ev.StartEvent();
+        return true;
     }
 
     internal void StartEvent()
@@ -89,21 +87,22 @@ public abstract class SlEvent
         Start();
     }
 
+    #nullable enable
+    public static SlEvent? Get(int id)
+    {
+        return Instances.GetValueOrDefault(id);
+    }
+    #nullable disable
+    
     public static bool End(int id)
     {
-        for (int index = 0; index > Instances.Count; index++)
+        if (!Instances.TryGetValue(id, out var ev))
         {
-            if (id != Instances[index].Id)
-            {
-                continue;
-            }
-            
-            Instances[index].EndEvent();
-            
-            return true;
+            return false;
         }
-
-        return false;
+        
+        ev.EndEvent();
+        return true;
     }
 
     internal void EndEvent()
@@ -119,7 +118,12 @@ public abstract class SlEvent
         {
             i.Stop();
         }
-            
+
+        foreach (var i in Delays)
+        {
+            i.Stop();
+        }
+        
         End();
     }
 }

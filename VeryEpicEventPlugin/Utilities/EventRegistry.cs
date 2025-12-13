@@ -1,5 +1,4 @@
-﻿using System;
-using Exiled.Events.EventArgs.Interfaces;
+﻿using Exiled.Events.EventArgs.Interfaces;
 using Exiled.Events.Features;
 using VeryEpicEventPlugin.Interfaces;
 
@@ -10,7 +9,7 @@ public class EventRegistry<T> : IEventRegistry
 {
     public CustomEventHandler<T> Handler;
     public Event<T> Event;
-
+    
     public EventRegistry(CustomEventHandler<T> handler, Event<T> @event)
     {
         Handler = handler;
@@ -19,13 +18,12 @@ public class EventRegistry<T> : IEventRegistry
 
     public void Sub()
     {
-        Event += Handler;
-        var y = this;
+        Event.Subscribe(Handler);
     }
     
     public void Unsub()
     {
-        Event -= Handler;
+        Event.Unsubscribe(Handler);
     }
 
     public EventRegistry<T> Register()
