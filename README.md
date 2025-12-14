@@ -23,5 +23,5 @@ I hate making documentation so much :pray:, so it will take me some time, but th
 Just know that if you register all and will have duplicate id to other event it will rewrite it, because this plugin uses dictionaries instead of list. If this happens when event is playing it will be unable to stop.
 
 # Saskyc Plugins
-I also do have a discord!
+I also do have a [discord](https://discord.gg/CRqPfXk4GC)!
 [![discord](https://i.pcmag.com/imagery/reviews/03hARBIw3QcYYxR6UAAc3f8-1.fit_lim.size_1050x591.v1634847928.png)](https://discord.gg/CRqPfXk4GC)
