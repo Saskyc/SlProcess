@@ -9,6 +9,7 @@ using Exiled.API.Features.Toys;
 using Exiled.Events.EventArgs.Map;
 using Exiled.Events.EventArgs.Player;
 using Exiled.Events.EventArgs.Server;
+using Exiled.Permissions.Commands.Permissions;
 using LabApi.Features.Wrappers;
 using PlayerRoles;
 using UnityEngine;
@@ -216,78 +217,27 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
     
     public void AddItems()
     {
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.Medkit);
-            ItemPool.Add(ItemType.Medkit);
-        }, 30).Run());
+        AddItemToPool(30, ItemType.Medkit, ItemType.Medkit);
+        AddItemToPool(60, ItemType.GunFSP9, ItemType.GunFSP9, ItemType.ArmorLight);
+        AddItemToPool(90, ItemType.GunFSP9, ItemType.ArmorLight, ItemType.ArmorLight, ItemType.GunCrossvec, ItemType.GunCrossvec);
+        AddItemToPool(120, ItemType.Ammo12gauge);
+        AddItemToPool(150, ItemType.Ammo762x39, ItemType.ArmorCombat, ItemType.ArmorCombat);
+        AddItemToPool(180, ItemType.GunShotgun, ItemType.GunAK);
+        AddItemToPool(210, ItemType.ArmorHeavy);
+        AddItemToPool(240, ItemType.Ammo44cal, ItemType.GunRevolver, ItemType.GrenadeFlash);
+        AddItemToPool(270, ItemType.ParticleDisruptor);
+        AddItemToPool(300, ItemType.GunCom45, ItemType.GrenadeHE);
+        AddItemToPool(330, ItemType.Jailbird);
         
         Delays.Add(new Delayed(() =>
         {
-            ItemPool.Add(ItemType.GunFSP9);
-            ItemPool.Add(ItemType.GunFSP9);
-            ItemPool.Add(ItemType.ArmorLight);
-        }, 60).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.GunFSP9);
-            ItemPool.Add(ItemType.ArmorLight);
-            ItemPool.Add(ItemType.ArmorLight);
-            ItemPool.Add(ItemType.GunCrossvec);
-            ItemPool.Add(ItemType.GunCrossvec);
-        }, 90).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.Ammo12gauge);
-        }, 120).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.Ammo762x39);
-            ItemPool.Add(ItemType.ArmorCombat);
-            ItemPool.Add(ItemType.ArmorCombat);
-        }, 150).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.GunShotgun);
-            ItemPool.Add(ItemType.GunAK);
-        }, 180).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.ArmorHeavy);
-        }, 210).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.Ammo44cal);
-            ItemPool.Add(ItemType.GunRevolver);
-            ItemPool.Add(ItemType.GrenadeFlash);
-        }, 240).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.ParticleDisruptor);
-        }, 270).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.GunCom45);
-            ItemPool.Add(ItemType.GrenadeHE);
-        }, 300).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            ItemPool.Add(ItemType.Jailbird);
-        }, 330).Run());
-        
-        Delays.Add(new Delayed(() =>
-        {
-            Coroutines.Add(new Loop(() => ItemPool.Add(ItemType.ParticleDisruptor), 15));
-        }, 360));
+            Coroutines.Add(new Loop(() => ItemPool.Add(ItemType.ParticleDisruptor), 15).Run());
+        }, 360).Run());
+    }
+
+    public void AddItemToPool(float delay, params ItemType[] items)
+    {
+        Delays.Add(new Delayed(() => ItemPool.AddRange(items), delay).Run());
     }
 
     public int RemoveDeadEntries()
@@ -320,7 +270,6 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
 
     public int MakeSureAssigned()
     {
-        Log.Info("Making sure assigned");
         foreach (var player in Player.List)
         {
             AssignRole(player);
@@ -785,7 +734,7 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
 
     public string HelpMessage(Player player)
     {
-        return "Availiable command is: relative.";
+        return "Available command is: relative | ci <plr> | mtf <plr>";
     }
 }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using JetBrains.Annotations;
 using LabApi.Features.Console;
+using MEC;
 using VeryEpicEventPlugin.Interfaces;
 using VeryEpicEventPlugin.Utilities;
 
@@ -21,6 +22,8 @@ public abstract class SlEvent
     public virtual List<Loop> Coroutines { get; set; } = [];
     
     public virtual List<Delayed> Delays { get; set; } = [];
+    
+    public virtual List<CoroutineHandle> Handles { get; set; } = [];
     
     public virtual void Start()
     {
@@ -44,12 +47,7 @@ public abstract class SlEvent
             }
 
             SlEvent instance = (SlEvent)Activator.CreateInstance(type);
-
-            if (instance == null)
-            {
-                Logger.Error($"Instance could not be created for: {type.FullName}");
-            }
-
+            Get(instance.Id)?.EndEvent();
             Instances[instance.Id] = instance;
         }
     }
@@ -129,6 +127,13 @@ public abstract class SlEvent
         {
             i.Stop();
         }
+
+        foreach (var i in Handles)
+        {
+            Timing.KillCoroutines(i);
+        }
+        
+        Handles.Clear();
         
         End();
     }

@@ -37,10 +37,16 @@ public class EventCommand : ICommand, IUsageProvider
                 return false;
             }
 
-            if (arguments.Count < 2 && slEvent is IEventHelp eventHelp)
+            if (arguments.Count < 2)
             {
-                response = eventHelp.HelpMessage(player);
-                return true;
+                if (slEvent is IEventHelp eventHelp)
+                {
+                    response = eventHelp.HelpMessage(player);
+                    return true;
+                }
+
+                response = $"Event {slEvent.Name} of id {id}, does not implement help message";
+                return false;
             }
 
             if (slEvent is not IEventCommand eventCommand)

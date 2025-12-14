@@ -505,7 +505,7 @@
         <Compile Include="Enums\Cloak.cs" />
         <Compile Include="Events\Bases.cs" />
         <Compile Include="Events\MTFCI.cs" />
-        <Compile Include="Extensions\PickupExtension.cs" />
+        <Compile Include="Extensions\SaskycExtensions.cs" />
         <Compile Include="Interfaces\IEventCommand.cs" />
         <Compile Include="Interfaces\IEventHelp.cs" />
         <Compile Include="Interfaces\IEventRegistry.cs" />
