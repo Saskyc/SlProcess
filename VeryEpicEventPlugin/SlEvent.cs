@@ -54,6 +54,11 @@ public abstract class SlEvent
 
     public static void UnregisterAll()
     {
+        foreach (var i in Instances)
+        {
+            i.Value.EndEvent();
+        }
+        
         Instances.Clear();
     }
 
