@@ -6,7 +6,7 @@ namespace VeryEpicEventPlugin
     public class EntryPoint : Plugin<Config>
     {
         public override string Name => "VeryEpicEventPlugin";
-        public override Version Version => new Version(1, 0, 1);
+        public override Version Version => new Version(1, 1, 0);
 
         public override string Author => "Saskyc";
 

@@ -103,17 +103,6 @@ public abstract class SlEvent
         }
         
         IsEnabled = true;
-
-        foreach (var i in EventRegistry)
-        {
-            i.Sub();
-        }
-
-        foreach (var i in Coroutines)
-        {
-            i.Run();
-        }
-
         Start();
     }
 
