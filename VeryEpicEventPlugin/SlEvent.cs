@@ -59,6 +59,13 @@ public abstract class SlEvent
         Instances.Clear();
     }
 
+    #nullable enable
+    public static SlEvent? Get(int id)
+    {
+        return Instances.GetValueOrDefault(id);
+    }
+    #nullable disable
+    
     public static bool Start(int id)
     {
         if (!Instances.TryGetValue(id, out var ev))
@@ -70,8 +77,13 @@ public abstract class SlEvent
         return true;
     }
 
-    internal void StartEvent()
+    public void StartEvent()
     {
+        if (IsEnabled)
+        {
+            EndEvent();
+        }
+        
         IsEnabled = true;
 
         foreach (var i in EventRegistry)
@@ -87,12 +99,6 @@ public abstract class SlEvent
         Start();
     }
 
-    #nullable enable
-    public static SlEvent? Get(int id)
-    {
-        return Instances.GetValueOrDefault(id);
-    }
-    #nullable disable
     
     public static bool End(int id)
     {
@@ -105,7 +111,7 @@ public abstract class SlEvent
         return true;
     }
 
-    internal void EndEvent()
+    public void EndEvent()
     {
         IsEnabled = false;
         

@@ -12,6 +12,7 @@ using Exiled.Events.EventArgs.Server;
 using LabApi.Features.Wrappers;
 using PlayerRoles;
 using UnityEngine;
+using VeryEpicEventPlugin.Extensions;
 using VeryEpicEventPlugin.Interfaces;
 using VeryEpicEventPlugin.Utilities;
 using AdminToy = LabApi.Features.Wrappers.AdminToy;
@@ -148,6 +149,11 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
         
         foreach (var player in Player.List.OrderBy(_ => Guid.NewGuid()).ToList())
         {
+            if (player.Role.Type == RoleTypeId.Overwatch)
+            {
+                continue;
+            }
+            
             SetRole(player);
             HasFlag(player);
         }
@@ -500,19 +506,10 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
         {
             return;
         }
-        
-        var y = LightSourceToy.Create(ev.Pickup.Transform);
-        
-        y.Type = LightType.Point;
-        y.ShadowType = LightShadows.Hard;
-        y.Color = Color.white;
-        y.Range = 0.5f;
-        y.Intensity = 0.5f;
-        
+
         var compo = ev.Pickup.GameObject.AddComponent<BasesItemLightBehaviour>();
-        compo.StartIt(y);
         Components.Add(compo);
-        Toys.Add(y);
+        Toys.Add(compo.StartIt(ev.Pickup.Light(Color.white, 0.5f, 0.5f, LightType.Point, LightShadows.Hard)));
     }
     public void OnPickingUpItemEventArgs(PickingUpItemEventArgs ev)
     {
@@ -566,7 +563,7 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
         {
             foreach (var player in Player.List)
             {
-                player.Broadcast(8, "Vyhrál MTF!");
+                player.Broadcast(8, "Vyhráli MTF!");
                 EndEvent();
             }
         }
@@ -807,10 +804,11 @@ public class BasesItemLightBehaviour : MonoBehaviour
         }
     }
 
-    public void StartIt(LightSourceToy toy)
+    public LightSourceToy StartIt(LightSourceToy toy)
     {
         Toy = toy;
         Started = true;
+        return toy;
     }
     
     public float T { get; set; }
