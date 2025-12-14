@@ -71,15 +71,30 @@ public abstract class SlEvent
     
     public static bool Start(int id)
     {
-        if (!Instances.TryGetValue(id, out var ev))
+        var slEvent = Get(id);
+
+        if (slEvent == null)
         {
             return false;
         }
         
-        ev.StartEvent();
+        slEvent.StartEvent();
         return true;
     }
 
+    public static bool End(int id)
+    {
+        var slEvent = Get(id);
+
+        if (slEvent == null)
+        {
+            return false;
+        }
+        
+        slEvent.EndEvent();
+        return true;
+    }
+    
     public void StartEvent()
     {
         if (IsEnabled)
@@ -100,18 +115,6 @@ public abstract class SlEvent
         }
 
         Start();
-    }
-
-    
-    public static bool End(int id)
-    {
-        if (!Instances.TryGetValue(id, out var ev))
-        {
-            return false;
-        }
-        
-        ev.EndEvent();
-        return true;
     }
 
     public void EndEvent()
