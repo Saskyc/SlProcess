@@ -1,6 +1,6 @@
 # Very Epic Event Plugin
 This is event plugin I mainly develop for server called Project Echo [SCP:SL] (Czech server).
-From developer page this plugin might look very stupid and questionable, everything is mainly develop to prevent ANY memory leaks **KNOWN BUG: When event executed two (2) times bad things will happen :(**. This plugin will not be using any dependencies in the future and will be kept simplified as much as it can be.
+From developer page this plugin might look very stupid and questionable, everything is mainly develop to prevent ANY memory leaks. This plugin will not be using any dependencies in the future and will be kept simplified as much as it can be.
 
 ### Events
 Bases
@@ -8,7 +8,7 @@ This event takes place in Light Containment Zone. Two factions exist, the MTF an
 The goal of this is to take all O5 keycards to your base MTF (LCZ Armory) CI (Peanut Chamber). Keycards have light on them showing where they are and peanut chamber normally inacsessible doors have intractable toy meaning if you want to pick up the locked door in peanut chamber it will teleport you to the other door and reversed. This is done, so keycards can't be unaccsessible in PT chamber.
 When all keycards are in base then all zone lights will be turned to the winning side CI (green) or MTF (dark blue). This means the other team will not be able to spawn until they collected keycards back to their base. This gives the other side time to wipe the other team and win the game (if they are able to defend their base).
 
-Overwatch is from this game removed, so you can spawn. **KNOWN BUG: Overwatch people will be spawned at the start of event.**.
+Overwatch is from this game removed, so you can spawn.
 
 ### Event command
 this command can be executed by anyone with Remote Admin permissions. **TODO: Permissions**.
