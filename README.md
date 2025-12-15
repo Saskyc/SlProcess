@@ -1,4 +1,4 @@
-# Very Epic Event Plugin
+# Very Epic Event Plugin [Wiki](https://github.com/Saskyc/VeryEpicEventPlugin/wiki)
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Saskyc/VeryEpicEventPlugin/total) ![GitHub Release](https://img.shields.io/github/v/release/Saskyc/VeryEpicEventPlugin)
 
