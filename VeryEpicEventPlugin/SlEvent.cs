@@ -9,7 +9,7 @@ using VeryEpicEventPlugin.Utilities;
 
 namespace VeryEpicEventPlugin;
 
-public abstract class SlEvent
+public abstract partial class SlEvent
 {
     public static Dictionary<int, SlEvent> Instances = [];
         

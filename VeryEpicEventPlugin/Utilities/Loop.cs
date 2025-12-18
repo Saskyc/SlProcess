@@ -6,7 +6,7 @@ using VeryEpicEventPlugin.Enums;
 
 namespace VeryEpicEventPlugin.Utilities;
 
-public class Loop : TimingUtil<Loop>
+public partial class Loop : TimingUtil<Loop>
 {
     #nullable enable
     private Func<int>? IntFunction { get; set; }

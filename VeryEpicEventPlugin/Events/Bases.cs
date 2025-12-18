@@ -16,6 +16,7 @@ using UnityEngine;
 using VeryEpicEventPlugin.Extensions;
 using VeryEpicEventPlugin.Interfaces;
 using VeryEpicEventPlugin.Utilities;
+using VeryEpicEventPlugin.Utilities.Primitives;
 using AdminToy = LabApi.Features.Wrappers.AdminToy;
 using Component = UnityEngine.Component;
 using LightSourceToy = LabApi.Features.Wrappers.LightSourceToy;
@@ -32,7 +33,7 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
     public override int Id { get; set; } = 2;
     
     public Dictionary<Player, Side> PlayerSide { get; set; } = [];
-    public Dictionary<Player, Primitive> PlayerPrimitive { get; set; } = [];
+    public Dictionary<Player, VePrimitive> PlayerPrimitive { get; set; } = [];
     
     public (int MTF, int CI) Count { get; set; }
     public (Vector3 MTFSpawn, Vector3 CISpawn) Spawn { get; set; }
@@ -360,25 +361,23 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
     }
     
     #nullable enable
-    public Primitive? GetPrimitive(Player player)
+    public VePrimitive? GetPrimitive(Player player)
     {
         return PlayerPrimitive.GetValueOrDefault(player);
     }
     #nullable disable
     
-    public Primitive AddPrimitive(Player player)
+    public VePrimitive AddPrimitive(Player player)
     {
         if (GetPrimitive(player) != null)
         {
             return GetPrimitive(player);
         }
-        
-        Primitive prim = Primitive.Create(primitiveType: PrimitiveType.Cube, flags: PrimitiveFlags.Visible, position: player.Position + new Vector3(0, 1, 0), rotation: Quaternion.identity.eulerAngles, scale: Vector3.one * 0.2f, spawn: true, color: Color.white);
-        prim.Transform.parent = player.Transform;
-        
-        //primitive.Transform.parent = player.Transform;
-        PlayerPrimitive[player] = prim;
-        return prim;
+
+        return PlayerPrimitive[player] = (VePrimitive)new VePrimitive((PropertySetting.Type, PrimitiveType.Cube), (PropertySetting.Type, 
+                    PrimitiveFlags.Visible), (PropertySetting.Position,player.Position), (PropertySetting.Scale, new Vector3(0.2f, 0.2f, 0.2f)), 
+                PropertySetting.AutoCreate)
+            .Follow(player.Transform, true, new Vector3(0, 1, 0));
     }
 
     public int PrimCheckLoop()
@@ -419,13 +418,7 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
     
     public void RemovePrimitive(Player player)
     {
-        var prim = GetPrimitive(player);
-        if (prim == null)
-        {
-            return;
-        }
-        
-        prim.Destroy();
+        GetPrimitive(player)?.Destroy();
         PlayerPrimitive.Remove(player);
     }
 
@@ -458,7 +451,11 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
 
         var compo = ev.Pickup.GameObject.AddComponent<BasesItemLightBehaviour>();
         Components.Add(compo);
-        Toys.Add(compo.StartIt(ev.Pickup.Light(Color.white, 0.5f, 0.5f, LightType.Point, LightShadows.Hard)));
+        
+        VeLight light = new VeLight((PropertySetting.Range, 0.5f), (PropertySetting.Intensity, 0.5f),
+            (PropertySetting.LightType, LightType.Point),
+            (PropertySetting.ShadowType, LightShadows.Hard), PropertySetting.AutoCreate).Follow(ev.Pickup.Transform);
+        Toys.Add(compo.StartIt(light));
     }
     public void OnPickingUpItemEventArgs(PickingUpItemEventArgs ev)
     {
@@ -741,7 +738,7 @@ public class Bases : SlEvent, IEventCommand, IEventHelp
 public class BasesItemLightBehaviour : MonoBehaviour
 {
     public Pickup Pickup { get; set; }
-    public LightSourceToy Toy { get; set; }
+    public VeLight Toy { get; set; }
     
     public bool Started { get; set; } = false;
     private void Awake()
@@ -753,7 +750,7 @@ public class BasesItemLightBehaviour : MonoBehaviour
         }
     }
 
-    public LightSourceToy StartIt(LightSourceToy toy)
+    public VeLight StartIt(VeLight toy)
     {
         Toy = toy;
         Started = true;

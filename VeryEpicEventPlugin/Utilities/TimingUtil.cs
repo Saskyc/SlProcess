@@ -8,7 +8,7 @@ namespace VeryEpicEventPlugin.Utilities;
 /// TimingUtil class used for MEC simplification.
 /// </summary>
 /// <typeparam name="T"></typeparam>
-public abstract class TimingUtil<T> where T : class
+public abstract partial class TimingUtil<T> where T : class
 {
     /// <summary>
     /// The time that will be used.

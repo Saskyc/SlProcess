@@ -6,7 +6,7 @@ using VeryEpicEventPlugin.Utilities;
 
 namespace VeryEpicEventPlugin;
 
-public class Delayed : TimingUtil<Delayed>
+public partial class Delayed : TimingUtil<Delayed>
 {
     public Action Action { get; set; }
     public float Delay { get; set; }

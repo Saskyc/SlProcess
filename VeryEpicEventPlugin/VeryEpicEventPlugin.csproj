@@ -514,6 +514,11 @@
         <Compile Include="Utilities\Delayed.cs" />
         <Compile Include="Utilities\EventRegistry.cs" />
         <Compile Include="Utilities\Loop.cs" />
+        <Compile Include="Utilities\Primitives\ObjectProperty.cs" />
+        <Compile Include="Utilities\Primitives\VeLight.cs" />
+        <Compile Include="Utilities\Primitives\VeBase.cs" />
+        <Compile Include="Utilities\Primitives\PropertySetting.cs" />
+        <Compile Include="Utilities\Primitives\VePrimitive.cs" />
         <Compile Include="Utilities\TimingUtil.cs" />
     </ItemGroup>
     <ItemGroup>

@@ -4,7 +4,7 @@ using VeryEpicEventPlugin.Interfaces;
 
 namespace VeryEpicEventPlugin;
 
-public class EventRegistry<T> : IEventRegistry
+public partial class EventRegistry<T> : IEventRegistry
     where T : IExiledEvent
 {
     public CustomEventHandler<T> Handler;
