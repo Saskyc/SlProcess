@@ -9,7 +9,7 @@
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>VeryEpicEventPlugin</RootNamespace>
-        <AssemblyName>VeryEpicEventPlugin</AssemblyName>
+        <AssemblyName>SlProcess</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>preview</LangVersion>
@@ -499,30 +499,13 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Commands\EventCommand.cs" />
         <Compile Include="Config.cs" />
-        <Compile Include="EntryPoint.cs" />
         <Compile Include="Enums\Cloak.cs" />
-        <Compile Include="Events\Bases.cs" />
-        <Compile Include="Events\MTFCI.cs" />
-        <Compile Include="Extensions\SaskycExtensions.cs" />
-        <Compile Include="Interfaces\IEventCommand.cs" />
-        <Compile Include="Interfaces\IEventHelp.cs" />
-        <Compile Include="Interfaces\IEventRegistry.cs" />
-        <Compile Include="SlEvent.cs" />
+        <Compile Include="SlProcess.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Struct\ProcessEndCondition.cs" />
         <Compile Include="Utilities\Delayed.cs" />
-        <Compile Include="Utilities\EventRegistry.cs" />
         <Compile Include="Utilities\Loop.cs" />
-        <Compile Include="Utilities\Primitives\AdminToy\VeAdminToyBase.cs" />
-        <Compile Include="Utilities\Primitives\AdminToy\VeAdminToyInteractable.cs" />
-        <Compile Include="Utilities\Primitives\AdminToy\VeAdminToyLight.cs" />
-        <Compile Include="Utilities\Primitives\AdminToy\VeAdminToyPrimitive.cs" />
-        <Compile Include="Utilities\Primitives\ObjectProperty.cs" />
-        <Compile Include="Utilities\Primitives\Prefabs\PrefabManager.cs" />
-        <Compile Include="Utilities\Primitives\Prefabs\VePrefabBase.cs" />
-        <Compile Include="Utilities\Primitives\Prefabs\VeSimpleBoxes.cs" />
-        <Compile Include="Utilities\Primitives\PropertySetting.cs" />
         <Compile Include="Utilities\TimingUtil.cs" />
     </ItemGroup>
     <ItemGroup>
