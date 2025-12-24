@@ -2,11 +2,12 @@
 using AdminToys;
 using Exiled.API.Features;
 using Exiled.API.Features.Toys;
+using Mirror;
 using UnityEngine;
 
 namespace VeryEpicEventPlugin.Utilities.Primitives;
 
-public abstract partial class VeBase<TWrapper, TObj> where TObj : AdminToy where TWrapper : VeBase<TWrapper, TObj>, new()
+public abstract partial class VeAdminToyBase<TWrapper, TObj> where TObj : AdminToy where TWrapper : VeAdminToyBase<TWrapper, TObj>, new()
 {
     public virtual TObj FieldObject { get; set; } = null;
     public virtual TObj RealObject 
@@ -29,9 +30,102 @@ public abstract partial class VeBase<TWrapper, TObj> where TObj : AdminToy where
         }  
     }
 
-    public abstract void Create(bool ifFoundRemoveOldOne = false);
+    public TWrapper Create(bool ifFoundRemoveOldOne = false)
+    {
+        FieldObject = CreateObject(ifFoundRemoveOldOne);
+        return (TWrapper)this;
+    }
 
-    public virtual VeBase<TWrapper, TObj> Destroy(bool safe = true)
+    public abstract TObj CreateObject(bool ifFoundRemoveOldOne = false);
+    
+    public TWrapper CreateFor(Player player)
+    {
+        var state = ShouldSpawn;
+        ShouldSpawn = false;
+        player.Connection.Send(GetSpawnMessage(CreateObject()));
+
+        ShouldSpawn = state;
+        return (TWrapper)this;
+    }
+    
+    public TWrapper DestroyFor(Player player)
+    {
+        var state = ShouldSpawn;
+        ShouldSpawn = false;
+        player.Connection.Send(GetDestroyMessage(CreateObject()));
+
+        ShouldSpawn = state;
+        return (TWrapper)this;
+    }
+
+    public TWrapper SpawnFor(Player player)
+    {
+        var state = ShouldSpawn;
+        ShouldSpawn = false;
+        player.Connection.Send(SpawnMessage);
+
+        ShouldSpawn = state;
+        return (TWrapper)this;
+    }
+    
+    public uint NetworkId => FieldObject.AdminToyBase.netId;
+
+    public SpawnMessage SpawnMessage
+    {
+        get
+        {
+            var mess = new SpawnMessage();
+            mess.position = Position;
+            mess.rotation = Rotation;
+            mess.netId = FieldObject.AdminToyBase.netId;
+            return mess;
+        }
+    }
+    
+    public SpawnMessage GetSpawnMessage(TObj obj)
+    {
+        var mess = new SpawnMessage();
+        mess.position = obj.Position;
+        mess.rotation = obj.Rotation;
+        mess.netId = obj.AdminToyBase.netId;
+        return mess;
+    }
+    
+    public ObjectHideMessage HideMessage
+    {
+        get
+        {
+            var mess = new ObjectHideMessage(); 
+            mess.netId = FieldObject.AdminToyBase.netId;
+            return mess;
+        }
+    }
+    
+    public ObjectHideMessage GetHideMessage(TObj obj)
+    {
+        var mess = new ObjectHideMessage();
+        mess.netId = obj.AdminToyBase.netId;
+        return mess;
+    }
+    
+    public ObjectDestroyMessage DestroyMessage
+    {
+        get
+        {
+            var mess = new ObjectDestroyMessage(); 
+            mess.netId = FieldObject.AdminToyBase.netId;
+            return mess;
+        }
+    }
+    
+    public ObjectDestroyMessage GetDestroyMessage(TObj obj)
+    {
+        var mess = new ObjectDestroyMessage();
+        mess.netId = obj.AdminToyBase.netId;
+        return mess;
+    }
+
+    public virtual VeAdminToyBase<TWrapper, TObj> Destroy(bool safe = true)
     {
         if (!safe)
         {
@@ -125,7 +219,7 @@ public abstract partial class VeBase<TWrapper, TObj> where TObj : AdminToy where
 
     public bool ShouldSpawn { get; set; } = true;
     
-    public VeBase(params ObjectProperty[] properties)
+    public VeAdminToyBase(params ObjectProperty[] properties)
     {
         SetProperties(properties);
     }
@@ -199,46 +293,46 @@ public abstract partial class VeBase<TWrapper, TObj> where TObj : AdminToy where
         
     }
 
-    public static implicit operator VeBase<TWrapper, TObj>(TObj primitive)
+    public static implicit operator VeAdminToyBase<TWrapper, TObj>(TObj primitive)
     {
         var vePrim = new TWrapper();
         vePrim.FieldObject = primitive;
         return vePrim;
     }
 
-    public static implicit operator TObj(VeBase<TWrapper, TObj> ve)
+    public static implicit operator TObj(VeAdminToyBase<TWrapper, TObj> veAdminToy)
     {
-        return ve.RealObject;
+        return veAdminToy.RealObject;
     }
     
-    public static implicit operator LabApi.Features.Wrappers.AdminToy(VeBase<TWrapper, TObj> toy)
+    public static implicit operator LabApi.Features.Wrappers.AdminToy(VeAdminToyBase<TWrapper, TObj> toy)
     {
         return LabApi.Features.Wrappers.AdminToy.Get(toy.RealObject.AdminToyBase);
     }
     
-    public static implicit operator AdminToy(VeBase<TWrapper, TObj> toy)
+    public static implicit operator AdminToy(VeAdminToyBase<TWrapper, TObj> toy)
     {
         return toy.RealObject;
     }
     
-    public static implicit operator AdminToyBase(VeBase<TWrapper, TObj> toy)
+    public static implicit operator AdminToyBase(VeAdminToyBase<TWrapper, TObj> toy)
     {
         return toy.RealObject.AdminToyBase;
     }
     
-    public static implicit operator VeBase<TWrapper, TObj>(AdminToyBase toy)
+    public static implicit operator VeAdminToyBase<TWrapper, TObj>(AdminToyBase toy)
     {
         var vBase = new TWrapper();
         vBase.FieldObject = (TObj)AdminToy.Get(toy);
         return vBase;
     }
     
-    public static implicit operator VeBase<TWrapper, TObj>(AdminToy toy)
+    public static implicit operator VeAdminToyBase<TWrapper, TObj>(AdminToy toy)
     {
         return toy.AdminToyBase;
     }
     
-    public static implicit operator VeBase<TWrapper, TObj>(LabApi.Features.Wrappers.AdminToy toy)
+    public static implicit operator VeAdminToyBase<TWrapper, TObj>(LabApi.Features.Wrappers.AdminToy toy)
     {
         return toy.Base;
     }

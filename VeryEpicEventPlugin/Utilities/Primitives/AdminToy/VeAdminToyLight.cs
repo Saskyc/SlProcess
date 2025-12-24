@@ -1,10 +1,11 @@
 ﻿using AdminToys;
+using Exiled.API.Features;
 using UnityEngine;
 using Light = Exiled.API.Features.Toys.Light;
 
 namespace VeryEpicEventPlugin.Utilities.Primitives;
 
-public partial class VeLight : VeBase<VeLight, Light>
+public partial class VeAdminToyLight : VeAdminToyBase<VeAdminToyLight, Light>
 {
     public float Range
     {
@@ -116,24 +117,25 @@ public partial class VeLight : VeBase<VeLight, Light>
         }
     } = Color.white;
 
-    public VeLight()
+    public VeAdminToyLight()
     {
         
     }
     
-    public VeLight(params ObjectProperty[] properties)
+    public VeAdminToyLight(params ObjectProperty[] properties)
     {
         SetProperties(properties);
     }
-    
-    public override void Create(bool ifFoundRemoveOldOne = false)
+
+    public override Light CreateObject(bool ifFoundRemoveOldOne = false)
     {
-        BeforeCreateCore();
-        FieldObject = Light.Create(Position, VectorRotation, Scale, ShouldSpawn);
-        FieldObject.Color = Color;
-        FieldObject.Range = Range;
-        FieldObject.Intensity = Intensity;
-        FieldObject.LightType = LightType;
+        BeforeCreateCore(ifFoundRemoveOldOne);
+        var obj = Light.Create(Position, VectorRotation, Scale, ShouldSpawn);
+        obj.Color = Color;
+        obj.Range = Range;
+        obj.Intensity = Intensity;
+        obj.LightType = LightType;
+        return obj;
     }
 
     public override void Processing(ObjectProperty property, ref bool shouldProcess)
@@ -155,15 +157,15 @@ public partial class VeLight : VeBase<VeLight, Light>
         }
     }
     
-    public static implicit operator VeLight(Light light)
+    public static implicit operator VeAdminToyLight(Light light)
     {
-        var veLight = new VeLight();
+        var veLight = new VeAdminToyLight();
         veLight.FieldObject = light;
         return veLight;
     }
 
-    public static implicit operator Light(VeLight ve)
+    public static implicit operator Light(VeAdminToyLight veAdminToy)
     {
-        return ve.RealObject;
+        return veAdminToy.RealObject;
     }
 }

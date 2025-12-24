@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace VeryEpicEventPlugin.Utilities.Primitives;
 
-public class VePrimitive : VeBase<VePrimitive, Primitive>
+public class VeAdminToyPrimitive : VeAdminToyBase<VeAdminToyPrimitive, Primitive>
 {
     public PrimitiveType PrimitiveType
     {
@@ -74,22 +74,23 @@ public class VePrimitive : VeBase<VePrimitive, Primitive>
         }
     }
 
-    public VePrimitive()
+    public VeAdminToyPrimitive()
     {
         
     }
     
-    public VePrimitive(params ObjectProperty[] properties)
+    public VeAdminToyPrimitive(params ObjectProperty[] properties)
     {
         SetProperties(properties);
     }
-    
-    public override void Create(bool ifFoundRemoveOldOne = false)
+
+    public override Primitive CreateObject(bool ifFoundRemoveOldOne = false)
     {
-        BeforeCreate();
-        FieldObject = Primitive.Create(PrimitiveType, Flags, Position, VectorRotation, Scale, ShouldSpawn, Color);
+        BeforeCreateCore(ifFoundRemoveOldOne);
+        var obj = Primitive.Create(PrimitiveType, Flags, Position, VectorRotation, Scale, ShouldSpawn, Color);
+        return obj;
     }
-    
+
     public override void Processing(ObjectProperty property, ref bool shouldProcess)
     {
         switch (property.Setting)
