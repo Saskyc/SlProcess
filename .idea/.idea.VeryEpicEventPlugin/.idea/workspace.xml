@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56344cd8-8b2f-497d-999c-3a3bca100e43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.VeryEpicEventPlugin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/SlProcess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/Struct/ProcessEndCondition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Assembly-CSharp-Publicized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Assembly-CSharp-firstpass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/BouncyCastle.Cryptography.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Caress.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/CommandSystem.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/CustomPasses.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/DnsClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.API.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.API.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CreditTags.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CreditTags.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CustomItems.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CustomItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CustomRoles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.CustomRoles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Events.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Events.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Loader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Exiled.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Facepunch.Steamworks.Win64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Interop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/LabApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Mirror.Components.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Mirror.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Mono.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/NorthwoodLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Pooling.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/SlProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Snake.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.ComponentModel.Composition.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Data.DataSetExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.EnterpriseServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.ServiceModel.Internals.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Burst.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Burst.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Collections.LowLevel.ILSupport.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Mathematics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.ProBuilder.Csg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.ProBuilder.KdTree.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.ProBuilder.Poly2Tri.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.ProBuilder.Stl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.ProBuilder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.Core.Runtime.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.Core.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.Core.ShaderLibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.GPUDriven.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.HighDefinition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.Rendering.LightTransport.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.TextMeshPro.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/Unity.VisualEffectGraph.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AMDModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ARModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AccessibilityModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AndroidJNIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AnimationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.AudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ClothModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ClusterInputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ClusterRendererModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ContentLoadModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.CrashReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.DSPGraphModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.DirectorModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.GIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.GameCenterModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.GraphicsStateCollectionSerializerModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.GridModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.HierarchyCoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.HotReloadModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.IMGUIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ImageConversionModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.InputForUIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.InputLegacyModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.InputModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.JSONSerializeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.LocalizationModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.MarshallingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.MultiplayerModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.NVIDIAModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ParticleSystemModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.PerformanceReportingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.Physics2DModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.PhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.PropertiesModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ScreenCaptureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.ShaderVariantAnalyticsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.SharedInternalsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.SpriteMaskModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.SpriteShapeModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.StreamingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.SubstanceModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.SubsystemsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TLSModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TerrainModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TerrainPhysicsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TextCoreFontEngineModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TextCoreTextEngineModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TextRenderingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.TilemapModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UIElementsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UIModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UmbraModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityAnalyticsCommonModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityAnalyticsModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityConnectModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityCurlModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityTestProtocolModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityWebRequestModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.VFXModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.VRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.VehiclesModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.VideoModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.VirtualTexturingModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.WindModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.XRModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/UnityEngine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/YamlDotNet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/bin/Debug/zxing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/obj/Debug/SlProcess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/obj/Debug/VeryEpic.0022F1E5.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/obj/Debug/VeryEpicEventPlugin.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/obj/Debug/VeryEpicEventPlugin.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/obj/Debug/VeryEpicEventPlugin.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlProcess.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SlProcess.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Commands/EventCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/EntryPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Events/Bases.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Events/MTFCI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Extensions/SaskycExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Interfaces/IEventCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Interfaces/IEventHelp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Interfaces/IEventRegistry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/SlEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/EventRegistry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/AdminToy/VeAdminToyBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/AdminToy/VeAdminToyInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/AdminToy/VeAdminToyLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/AdminToy/VeAdminToyPrimitive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/ObjectProperty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/Prefabs/PrefabManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/Prefabs/VePrefabBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/Prefabs/VeSimpleBoxes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Primitives/PropertySetting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/TimingUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/TimingUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VeryEpicEventPlugin/VeryEpicEventPlugin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VeryEpicEventPlugin/SlProcess.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Saskyc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Saskyc/VeryEpicEventPlugin.git&quot;,
+    &quot;accountId&quot;: &quot;c2451f73-0011-452b-9c5e-8ab7aa774ae8&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/00011fd4ef944c4aaee8c974c3f5876a13000/ab/a9bdc98f/02000015pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/00011fd4ef944c4aaee8c974c3f5876a13000/e6/b4e6fab8/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/061045fedef24b83a763fda1b4c1b732b800/ed/73e00ca5/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/12e929a0ff804a22ba2b2b878fd96b8be800/b4/707ef20a/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/15c69b8581f64ce6a308b614c2cab1dc12800/32/a13c3df5/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/15c69b8581f64ce6a308b614c2cab1dc12800/8f/d5f6e397/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/16435199983a425cb31a2b507a7e3810d600/e6/5a93114e/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1661795a806c4bceb748d5bf3db9784512e00/02/599c53ce/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1661795a806c4bceb748d5bf3db9784512e00/26/82d8cfa8/02000015pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/166f57ed013e4f1abae41f89f09d533f12e00/9d/8370b914/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1839f33697154201ba8e61a7ac9303aed800/0b/d1583452/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/1e0178a549014c0f8940460072c1a042b800/cc/f11fd61d/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/23894ca090cb4384a524745d7bf3f8bbd800/b3/e0dc18dc/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/276738638b0745bfa86dd6bff76ad48cb800/e8/7634f616/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/28aecdf0142c4d27bac00d60a0b238d7b800/dc/bcf57b79/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/2c6694b57c744dd0a17f98b636f39f3fb800/a6/d45e7902/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/2eb23519f22a4ce7b3f1526c64213ce9b600/b3/2b2e354c/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/3251de600dc64efd80fcb4fc5acbc704d600/81/641b6446/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/3469520762fe495488a51cdb70492471f400/82/7a32c4fa/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/3469520762fe495488a51cdb70492471f400/9a/1ba52787/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/40b1235916244c51b195f7474d7c99ece600/53/011b26c4/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/45e36433cc2b48828a1e1bab4bbc3667c400/f0/3ff6f94e/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/45fae5a1477e405989ce6e6a90020790d200/96/1cfe77b2/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4aab024bdeb34df9b77f32d16f00c29db600/ad/7cb7d60b/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b2e197d75844547bab099f3d05ba89dc400/c4/0351d1c9/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/17/08e8a3df/02000007pdb2.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/34/13efd129/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/3a/7fba085c/02000013pdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/41/0f06b4cd/0200000Dpdb16.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/53/df155c7e/02000012pdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/91/604e5acd/02000011pdb7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/a4/5f6a013c/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/b2/ee7cdad7/0200000Cpdb15.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/d1/da537d9b/0200000Apdb13.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/4b7adc67ee0a4f30b9f14d219c4f3bd3f400/f4/ea07332f/0200000Bpdb14.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/51ca99b55d0c4d7eb6f9a2577feb7c1de600/3a/c101b213/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/534f34a47d7649eabfb969f859814e0fb800/29/508197ce/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5749936d406f4a29a42ae25e0284fc4fb800/4b/52d11d0a/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5b493bd7c9124b9a875b81f4a78603c8e600/73/314c4dac/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/61f8352828c54f839152a30816b1b3d5d600/3e/37f5d245/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/630428fa892c4f5080732be4cf1b4938c200/0b/1fcea1a6/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/6a10808d44704064b3c847ca00bd0db9d400/b7/527f3906/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/6dda10077f884351ae0be491b1e48386b000/81/51db1f9e/0200000Epdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/6de8deb4600948548041ff31e187693cba00/0a/bb7d5f00/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/6e4633178e7842cd8874bd53804be474f400/1e/e0d027a3/02000012pdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/6e4633178e7842cd8874bd53804be474f400/b3/47218b21/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/08/b78e3b4e/02000016pdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/12/d5f9b210/02000010pdb10.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/18/116053d4/0200000Dpdb16.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/3b/7cc32e46/02000012pdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/3e/6ba54bd2/0200000Fpdb9.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/78/3501c17f/02000011pdb7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/a2/d2c3960f/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/ad/6715a0f9/0200000Epdb8.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/724086d658094d01b99d510bb51d6b94f000/e3/8083e981/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/781df372c1304b028de24984d112f08de800/65/4dfcab00/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/79487c76ed5544a3b925416423580382b800/60/d1577b02/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/41/dbd2cd7e/02000013pdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/4a/03c2ffd5/02000014pdb2.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/4b/42edf14e/0200000Apdb13.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/5f/5b09fafe/02000008pdb9.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/86/af5863d2/0200000Bpdb14.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/89/05fa8623/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/91/c3f11e28/02000011pdb7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/b5/bfc8ec25/0200000Dpdb8.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/ee/1b1499f6/02000009pdb12.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7d86d792ccb545198a756f7cf4b3314be800/f3/a96ebad3/02000010pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7e7339fac14448f49402ddacb096e56cf000/68/a6b1e01c/02000007pdb2.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7e7339fac14448f49402ddacb096e56cf000/93/abfd219b/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/7e7339fac14448f49402ddacb096e56cf000/fd/6905e467/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/824ed14594b84c0c8f9f72ed269db238d400/cf/e4182ba3/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/8950f36848374437bc8a1b878e7a22c6c000/c3/bfd94573/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/8a66d1b501704eefbbea9391919d8991ca00/eb/a24096a9/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/8a76aeef00554c178ff62e6d9c91a015ba00/30/2b4b9739/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9298c822ffbc46a1937b8fde3fbf9da2c400/3f/ceba6a58/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9894bce2fe1e4f0cbec9229407e6c0e9b600/e5/7dbc9b68/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/10/c0985279/02000017pdb8.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/18/95fc7756/0200000Bpdb14.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/1c/4e472066/02000011pdb19.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/2e/595aeec9/0200001Fpdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/36/d8e36668/0200001Apdb7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/39/084bae9d/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/45/dddceb82/0200001Bpdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/51/ace229ac/00000000pdb12.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/57/6424840c/0200000Dpdb25.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/57/99abb381/02000015pdb22.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/5a/b9dcfb5e/02000018pdb9.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/64/f120a25b/02000012pdb20.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/69/dbbcd34b/02000016pdb23.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/6b/71d3f248/0200000Cpdb15.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/7a/451a4ba3/02000010pdb18.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/92/e8a7bc38/0200000Fpdb17.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/9b/f838ab43/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/9c/6eb1377d/02000013pdb24.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/de/7c2c15a9/0200000Epdb16.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/e6/8b18ea77/02000019pdb10.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99c6efeb5a4c4f4abfd25f4f7c54708e13600/ec/68289989/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/99f78e1b24ee48b19a7d022588f866fac400/e6/dbf5c2d7/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b919bced6e140f1a264fb550b2bd38ab600/8e/9a56e4ae/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/0b/309d73f6/02000012pdb20.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/15/6b2803bc/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/33/8309ab1d/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/85/ec4b3466/02000015pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/8c/03ef1706/02000013pdb22.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/98/f16271b0/0200000Fpdb17.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/de/072343b2/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/9b9e6fb8c7cf4d78acddc42c8a98a60212e00/f8/60c39d5a/0200000Epdb16.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/a0c1433c6e4a45b48dd92f546e32dc6db800/db/18e7bf23/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/a2723dc3262a405aac99a534ca1c0e10ba00/25/16d79ee6/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/a2a65a2c569444b6a7a7c9f97ff3a257b800/21/8ad04e42/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/a9e274bb348d47b281f3215c359bd0fcba00/c3/3fb5129e/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ae8ef13d41ae441baa5e86532305b7c6b800/64/7ca6a98c/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/af1413d405aa406a8affcaca5f184bb1d600/3e/8a30a5fb/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/affd18b85f584f84960c1c2640e32cd4c400/e8/66e7f032/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b20017bbb83f43b29af3e42e04e463c0e600/6f/00688fac/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b318e11ae7f8403a99ced902d174caecc000/4d/b37a7f77/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ba8079fbb52041069fb96edfe0e38ec2ee00/96/1bca345f/02000011pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb5dae307ce94a15aa7d07dccf8aa894ba00/00/814317b3/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/0a/f737434d/02000009pdb12.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/20/35a3980c/0200000Cpdb15.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/36/772bf686/0200000Bpdb14.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/9e/74f848a7/0200000Apdb13.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/d4/9bf0c044/02000011pdb7.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/f0/388f6c44/02000008pdb9.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/bb626f7ef78d4561bf93aea2e6b37d0ed800/f9/237fa623/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/c3103a1d7e7948c4ba07d0682c484e9af400/c0/cbb9a440/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/c6a7f15028374326b7b31df03d84b655b800/b9/02928970/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ce0e9b7ec1ee4673a3667a0077d7803812800/16/7c821c21/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ce0e9b7ec1ee4673a3667a0077d7803812800/49/d9b49a68/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/d347be8f32884f42981b4b57d99e815db800/f9/0c9a447a/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/d44a1a46631243ffa3db2670f9b2ab23b800/7f/c35a3a3c/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/d968bc8db03f47449d4acc5f9f603848d400/de/3ccdba32/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/df9af5bc93e74eb1a732b7d7373b4c79b600/af/29d3c192/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/06/245b8adf/0200000Cpdb17.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/33/22f00049/02000007pdb4.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/39/072ed271/0200000Epdb9.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/70/572da6be/02000010pdb12.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/87/ff14d265/02000011pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/90/151165ff/0200000Bpdb16.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/94/3ccd438d/02000009pdb14.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/a1/08619517/02000008pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/ad/bdb778a1/0200000Apdb15.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/c7/61c749d4/02000015pdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/d0/005789ed/02000016pdb2.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/d2/fb6da868/0200000Fpdb10.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/d5/f5dcc5b3/0200000Dpdb8.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e10417ca48c548cbb898217571da9ba1f000/d8/e24a370d/02000012pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/e981a2432ef845a3a8b2f5d326cd827fb800/8a/b53c92b8/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ebae3214825a4ad280c57e4831d9d7b2b800/7b/7c2ae43b/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec46906aef874dfda269f522c654aacdf400/93/6e9a8407/02000008pdb3.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec46906aef874dfda269f522c654aacdf400/c8/25c111bd/02000012pdb5.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec46906aef874dfda269f522c654aacdf400/e1/797bb005/02000009pdb11.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec9546e47b35430abe815c989437a1efee00/44/67378cee/02000012pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec9546e47b35430abe815c989437a1efee00/92/3ce14628/02000011pdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/ec9546e47b35430abe815c989437a1efee00/9f/742c17c3/02000015pdb1.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/f248280e9dea4d1bb72cfa0d5537358dba00/69/4a83e83a/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/f5f8d40a5b494a98b81d6561547872d0b800/b5/6999b050/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/fa84b220da8a4371a8815e467963e7c5d600/83/25572f69/0200000Fpdb6.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/fac7e639d281400c87c3c75ab079280513000/4a/cdb19145/02000014pdb21.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08eb9de5dc254471b89ceae24008b1b4c2200/22/b47683ab/PrimitiveObjectToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08eb9de5dc254471b89ceae24008b1b4c2200/36/1fe88fb6/InteractableToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08eb9de5dc254471b89ceae24008b1b4c2200/5f/f2a60441/TextToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08eb9de5dc254471b89ceae24008b1b4c2200/70/75ac6b70/AdminToy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/08eb9de5dc254471b89ceae24008b1b4c2200/c5/185625d4/LightSourceToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13c0c460649d4ce49f991e2c222fa63546ae00/18/94a5785d/List`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13c0c460649d4ce49f991e2c222fa63546ae00/7b/62f8d4e8/Dictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13c0c460649d4ce49f991e2c222fa63546ae00/c6/4e74fe7b/Assembly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/13c0c460649d4ce49f991e2c222fa63546ae00/c8/aa547fe7/Action`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/0b/826260f9/CustomEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/17/33671178/AnnouncingChaosEntranceEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/34/14832935/CustomEventHandler`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/37/7ed3bf36/Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/62/dccef715/IExiledEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/477802dff25c4f4897ce85f80e712b0ee6e00/d8/0d43c743/Event`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5815d375242745d186aaa1fd40b73db92200/b0/b3c2e34a/IHelpProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/32/44e9e6a9/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/38/e77c9d4d/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/47/846c3ce7/GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/4e/95f5bdd7/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/a6/2c0db32c/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6869b1608d104370ab4484f8f699b3fc1b5cb8/da/cd512ee2/Awaitable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8ec4296b0b8f44929cd444aea301ae682beb8/65/70396237/Collider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/acf941079904402b8caac701d56629a476b8/94/6667e83d/FreeFunctionAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd7526914964413fbebe966587cde2583fd600/33/9d12e343/ElevatorChamber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd7526914964413fbebe966587cde2583fd600/59/6eca530b/RoleSpawnFlags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd7526914964413fbebe966587cde2583fd600/b4/43b68c1a/PrimitiveObjectToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd7526914964413fbebe966587cde2583fd600/bb/a752bfff/PrimitiveFlags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd7526914964413fbebe966587cde2583fd600/d9/78c960a0/InvisibleInteractableToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef795f1e7d4c4b1db01fba9fd536c4442ec00/98/ee0d1030/NetworkClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef795f1e7d4c4b1db01fba9fd536c4442ec00/ee/a2cd704e/NetworkServer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/21/dabc286b/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/27/500477e6/PrefabHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/61/caa1fb05/AdminToy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/6c/7719bbe4/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/6e/71e35aab/Primitive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/7c/f3b93024/PrefabType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/97/6ff89203/IWrapper`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/97/95591c69/Light.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ff8b8b81507c43fb9fbb6a8f9722441a93200/ed/6412d203/Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/SlProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/Struct/ProcessEndCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Delayed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/Loop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VeryEpicEventPlugin/Utilities/TimingUtil.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="36WH3QBUnY66QzjOniET00TgjiM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56344cd8-8b2f-497d-999c-3a3bca100e43" name="Changes" comment="" />
+      <created>1765115209993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765115209993</updated>
+      <workItem from="1765115211391" duration="15312000" />
+      <workItem from="1765201908394" duration="2182000" />
+      <workItem from="1765612967600" duration="31760000" />
+      <workItem from="1765715939429" duration="8840000" />
+      <workItem from="1766091937659" duration="8334000" />
+      <workItem from="1766169069152" duration="9957000" />
+      <workItem from="1766592242895" duration="2103000" />
+    </task>
+    <task id="LOCAL-00001" summary="Muhahaha evil init">
+      <option name="closed" value="true" />
+      <created>1765123089348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765123089348</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First event done :pray: and event smth">
+      <option name="closed" value="true" />
+      <created>1765641466576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765641466576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes">
+      <option name="closed" value="true" />
+      <created>1765724099442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765724099442</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Now SlEvent.UnregisterAll() will end all events before clearing Instances">
+      <option name="closed" value="true" />
+      <created>1765724889905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765724889905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Use Get method">
+      <option name="closed" value="true" />
+      <created>1765725233330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765725233330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Version bump &amp; editing stupid implementation of StartEvent()">
+      <option name="closed" value="true" />
+      <created>1765725562415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765725562415</updated>
+    </task>
+    <task id="LOCAL-00007" summary="So it's like 12:30 AM and I felt really funny when I learned about partial class + I hate spawning objects and making them follow player, so I'm creating my own wrappers, which might get more additions (prob will be getting that many as I'll need)">
+      <option name="closed" value="true" />
+      <created>1766100313417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766100313417</updated>
+    </task>
+    <task id="LOCAL-00008" summary="There will be a lot of changes">
+      <option name="closed" value="true" />
+      <created>1766592434949</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766592434949</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Muhahaha evil init" />
+    <MESSAGE value="First event done :pray: and event smth" />
+    <MESSAGE value="changes" />
+    <MESSAGE value="Now SlEvent.UnregisterAll() will end all events before clearing Instances" />
+    <MESSAGE value="Use Get method" />
+    <MESSAGE value="Version bump &amp; editing stupid implementation of StartEvent()" />
+    <MESSAGE value="So it's like 12:30 AM and I felt really funny when I learned about partial class + I hate spawning objects and making them follow player, so I'm creating my own wrappers, which might get more additions (prob will be getting that many as I'll need)" />
+    <MESSAGE value="There will be a lot of changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="There will be a lot of changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

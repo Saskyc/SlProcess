@@ -1,10 +1,9 @@
 ﻿using Exiled.API.Interfaces;
 
-namespace VeryEpicEventPlugin
+namespace VeryEpicEventPlugin;
+
+public class Config : IConfig
 {
-    public class Config : IConfig
-    {
-        public bool IsEnabled { get; set; } = true;
-        public bool Debug { get; set; } = false;
-    }
+    public bool IsEnabled { get; set; } = true;
+    public bool Debug { get; set; } = false;
 }
