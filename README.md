@@ -2,6 +2,11 @@
 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Saskyc/VeryEpicEventPlugin/total) ![GitHub Release](https://img.shields.io/github/v/release/Saskyc/VeryEpicEventPlugin)
 
+SelfRegisteringBase<T> https://github.com/Saskyc/SlProcess/blob/master/VeryEpicEventPlugin/Utilities/MEC/EasyInheritance/EasyOwnedInheritance.cs
+SharedRegistryBase<T> https://github.com/Saskyc/SlProcess/blob/master/VeryEpicEventPlugin/Utilities/MEC/EasyInheritance/SharedInheritance.cs
+RegisteredTypeInfo<T> https://github.com/Saskyc/SlProcess/blob/master/VeryEpicEventPlugin/Utilities/MEC/EasyInheritance/InheritanceHolder.cs
+
+
 This is event plugin I mainly develop for server called Project Echo [SCP:SL] (Czech server).
 From developer page this plugin might look very stupid and questionable, everything is mainly develop to prevent ANY memory leaks. This plugin will not be using any dependencies in the future and will be kept simplified as much as it can be.
 
