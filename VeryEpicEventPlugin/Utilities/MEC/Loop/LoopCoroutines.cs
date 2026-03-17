@@ -7,15 +7,20 @@ namespace VeryEpicEventPlugin.Utilities.MEC.Loop;
 
 public partial class Loop : TimingUtil<Loop>
 {
-    public override Loop Run()
+    public override MethodResult<Loop> CreateHandle()
     {
         try
         {
-            Handle.Add(Timing.RunCoroutine(SuperiorCoroutine()));
+            Handle = Timing.RunCoroutine(SuperiorCoroutine());
         }
         catch (Exception e)
         {
-            Log.Error($"Loop Exception: {e.Message}");
+            if (LogExceptions)
+            {
+                Log.Error($"Loop Exception: {e.Message}");
+            }
+
+            return new MethodResult<Loop>(this, e);
         }
         
         return this;

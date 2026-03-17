@@ -37,7 +37,7 @@ public partial record struct ProcessEndCondition
         Process = process;
         process.EndCondition.Add(this);
         MyLoop = new Loop(TheLoop);
-        process.Loops.Add(MyLoop.Run());
+        process.Loops.Add(MyLoop.CreateHandle());
 
         return this;
     }
@@ -49,7 +49,7 @@ public partial record struct ProcessEndCondition
     /// <returns></returns>
     public ProcessEndCondition Stop(bool removeItself = false)
     {
-        MyLoop.Stop();
+        MyLoop.Kill();
 
         if (removeItself)
         {

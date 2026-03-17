@@ -11,9 +11,9 @@ namespace VeryEpicEventPlugin.Utilities.MEC;
 public partial class DoWhen : TimingUtil<DoWhen>
 {
     /// <summary>
-    /// If should execute, false means it won't execute. Good when wanting to setup variables.
+    /// If running then should execute meanes if the <see cref="Slave"/> got true result out of <see cref="Condition"/>
     /// </summary>
-    public bool ShouldExecute { get; set; } = false;
+    private bool ShouldExecute { get; set; } = false;
 
     /// <summary>
     /// Condition defining when will the <see cref="DoWhen.Actions"/> be executed.
@@ -47,15 +47,18 @@ public partial class DoWhen : TimingUtil<DoWhen>
         return this;
     }
 
-    /// <summary>
-    /// Override for Run. Adds slave coroutine into Handle.
-    /// </summary>
-    /// <returns><see cref="DoWhen"/></returns>
-    public override DoWhen Run()
+    public override MethodResult<DoWhen> CreateHandle()
     {
         ShouldExecute = false;
-        Handle.Add(Timing.RunCoroutine(Slave()));
-        return this;
+        try
+        {
+            Handle = Timing.RunCoroutine(Slave());
+            return this;
+        }
+        catch(Exception e)
+        {
+            return new MethodResult<DoWhen>(this, e);
+        }
     }
 
     /// <summary>
@@ -76,7 +79,10 @@ public partial class DoWhen : TimingUtil<DoWhen>
                     }
                     catch (Exception e)
                     {
-                        Log.Error(e);
+                        if (LogExceptions)
+                        {
+                            Log.Error(e);
+                        }
                     }
                 }
             

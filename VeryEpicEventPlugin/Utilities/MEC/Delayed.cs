@@ -40,19 +40,25 @@ public partial class Delayed : TimingUtil<Delayed>
     /// Override method that will add <see cref="Timing.CallDelayed"/> into <see cref="TimingUtil{T}.Handle"/>.
     /// </summary>
     /// <returns></returns>
-    public override Delayed Run()
+    public override MethodResult<Delayed> CreateHandle()
     {
-        Handle.Add(Timing.CallDelayed(TimeUsed, () =>
+        Handle = Timing.CallDelayed(TimeUsed, () =>
         {
             try
             {
                 Action.Invoke();
+                return this;
             }
             catch (Exception e)
             {
-               Log.Error(e.Message);
+                if (LogExceptions)
+                {
+                    Log.Error(e.Message);
+                }
+              
+                return new MethodResult<Delayed>(this, e);
             }
-        }));
+        });
         
         return this;
     }

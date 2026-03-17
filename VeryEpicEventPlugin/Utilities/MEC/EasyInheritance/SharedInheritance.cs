@@ -4,6 +4,10 @@ using Exiled.API.Features;
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance;
 
+/// <summary>
+/// Inheritance used for class not owned & still wanting to get all classes that inherit it.
+/// </summary>
+/// <typeparam name="TOther">Other class</typeparam>
 public class SharedInheritance<TOther> : InheritanceBase where TOther : class
 {
     public static WatchableList<InheritanceHolder<TOther>> Registered { get; } = new(OnAdd, OnRemove, () => {});
