@@ -4,29 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VeryEpicEventPlugin.Utilities
+namespace VeryEpicEventPlugin.Utilities.Struct
 {
     /// <summary>
     /// Result of a method that can cause exceptions without throwing.
     /// </summary>
-    public class MethodResult<T>
+    public struct MethodResult<T>
     {
         /// <summary>
         /// The result of method.
         /// </summary>
-        public T Result { get; } 
+        public T Result { get; }
 
         /// <summary>
         /// Exception caused because of the method
         /// </summary>
-        public Exception? Exception { get; }
+        public Exception Exception { get; }
 
         /// <summary>
         /// Constructor creating <see cref="MethodResult{T}"/>
         /// </summary>
         /// <param name="result">The result of the method</param>
         /// <param name="exception">The excpetion caused (if any), defaultly nothing.</param>
-        public MethodResult(T result, Exception? exception = null)
+        public MethodResult(T result, Exception exception = null)
         {
             Result = result;
             Exception = exception;
@@ -54,7 +54,7 @@ namespace VeryEpicEventPlugin.Utilities
         /// Implicit conversion of <see cref="MethodResult{T}"/> to Exception (if any).
         /// </summary>
         /// <param name="methodResult"></param>
-        public static implicit operator Exception?(MethodResult methodResult)
+        public static implicit operator Exception(MethodResult methodResult)
         {
             return methodResult.Exception;
         }

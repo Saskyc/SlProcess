@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using MEC;
-using VeryEpicEventPlugin.Struct;
 using VeryEpicEventPlugin.Utilities.Events;
 using VeryEpicEventPlugin.Utilities.MEC;
 using VeryEpicEventPlugin.Utilities.MEC.Loop;
+using VeryEpicEventPlugin.Utilities.Struct;
 
 namespace VeryEpicEventPlugin.Utilities.Process;
 

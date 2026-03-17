@@ -3,7 +3,7 @@ using Exiled.API.Features;
 using VeryEpicEventPlugin.Utilities.MEC.Loop;
 using VeryEpicEventPlugin.Utilities.Process;
 
-namespace VeryEpicEventPlugin.Struct;
+namespace VeryEpicEventPlugin.Utilities.Struct;
 
 public partial record struct ProcessEndCondition
 {
@@ -26,7 +26,7 @@ public partial record struct ProcessEndCondition
     /// The loop object that takes from StopWhen and CheckRate.
     /// </summary>
     internal Loop MyLoop { get; set; }
-    
+
     /// <summary>
     /// Anchors the ProcessEndCondition to SlProcess object
     /// </summary>
@@ -55,10 +55,10 @@ public partial record struct ProcessEndCondition
         {
             Process.EndCondition.Remove(this);
         }
-        
+
         return this;
     }
-    
+
     /// <summary>
     /// The main loop function responsible for everything.
     /// </summary>
@@ -74,7 +74,7 @@ public partial record struct ProcessEndCondition
                 Process.EndCondition.Remove(this);
             }
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             Log.Error($"Your end condition in process is fucked: \n{e.Message}");
         }
@@ -82,7 +82,7 @@ public partial record struct ProcessEndCondition
 
         return CheckRate;
     }
-    
+
     /// <summary>
     /// Constructor for object ProcessEndCondition
     /// </summary>

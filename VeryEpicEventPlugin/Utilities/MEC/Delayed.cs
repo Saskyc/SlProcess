@@ -2,6 +2,7 @@
 using Exiled.API.Features;
 using MEC;
 using VeryEpicEventPlugin.Enums;
+using VeryEpicEventPlugin.Utilities.Struct;
 
 namespace VeryEpicEventPlugin.Utilities.MEC;
 

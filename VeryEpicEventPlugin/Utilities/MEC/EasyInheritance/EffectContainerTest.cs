@@ -2,7 +2,7 @@
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance;
 
-public class Test : SharedInheritance<StatusEffectBase>
+public class EffectContainerTest : SharedInheritance<StatusEffectBase>
 {
     public override bool IsDebug { get; } = true;
 }

@@ -18,7 +18,7 @@ public class EntryPoint : Plugin<Config>
         Instance = this;
         Harmony = new Harmony("VeryEpicEventPlugin.smth");
         
-        Test.RegisterAll(typeof(StatusEffectBase).Assembly);
+        EffectContainerTest.RegisterAll(typeof(StatusEffectBase).Assembly);
         
         Harmony?.PatchAll();
         
@@ -28,6 +28,9 @@ public class EntryPoint : Plugin<Config>
     public override void OnDisabled()
     {
         Harmony?.UnpatchAll();
+
+        EffectContainerTest.UnregisterAll();
+
         Instance = null;
         base.OnDisabled();
     }

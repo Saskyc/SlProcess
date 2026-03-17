@@ -7,7 +7,7 @@ using VeryEpicEventPlugin.Utilities.MEC.Loop;
 using VeryEpicEventPlugin.Utilities.MEC.Number;
 using VeryEpicEventPlugin.Utilities.Process;
 
-namespace VeryEpicEventPlugin.Struct;
+namespace VeryEpicEventPlugin.Utilities.Struct;
 
 /// <summary>
 /// Holder of object inheriting from TimingUtil{T} that will be executed and stopped when Func<bool> return true.
@@ -15,8 +15,8 @@ namespace VeryEpicEventPlugin.Struct;
 /// <typeparam name="T">Object that inherits from TimingUtil{T}</typeparam>
 public record struct Holder<T> : IHolder where T : TimingUtil<T>
 {
-    #nullable enable
-    
+#nullable enable
+
     /// <summary>
     /// The main process
     /// </summary>
@@ -36,7 +36,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
     /// The actions executed after end.
     /// </summary>
     public List<Action> EndActions { get; set; } = [];
-    
+
     /// <summary>
     /// Rate of checking the StopWhen Function.
     /// </summary>
@@ -51,7 +51,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
     /// If the holder should start.
     /// </summary>
     public bool ShouldStart { get; set; } = true;
-    
+
     /// <summary>
     /// Fills conditions
     /// </summary>
@@ -75,8 +75,8 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
     /// <summary>
     /// ImmediateActions executed right as the Holder is started
     /// </summary>
-    public List<Action> ImmediateActions { get; set;} = [];
-    
+    public List<Action> ImmediateActions { get; set; } = [];
+
     /// <summary>
     /// Fills the ImmediateActions
     /// </summary>
@@ -87,7 +87,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         ImmediateActions.AddRange(actionsAfterStart);
         return this;
     }
-    
+
     /// <summary>
     /// Fills the end actions
     /// </summary>
@@ -98,7 +98,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         EndActions.AddRange(endActions);
         return this;
     }
-    
+
     /// <summary>
     /// Change rate of the End loop checking.
     /// </summary>
@@ -122,17 +122,17 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         {
             status = StopWhen();
         }
-        catch (Exception ex) 
+        catch (Exception ex)
         {
             Log.Error(ex);
         }
-        
+
         if (status)
         {
             Log.Info("Stopping");
             Stop(true);
         }
-        
+
         return Rate;
     }
 
@@ -142,7 +142,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
     /// <param name="process">SlProcess object</param>
     public void BaseStart(SlProcess? process = null)
     {
-        if(!ShouldStart) return;
+        if (!ShouldStart) return;
 
         foreach (var i in ImmediateActions)
         {
@@ -160,12 +160,12 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
                 Log.Error($"Immediate Actions error: {e}");
             }
         }
-        
+
         HeldItem.Run();
         Ender.CreateHandle();
-        
+
         Process = process;
-        if(process != null && !process.Holders.Contains(this))
+        if (process != null && !process.Holders.Contains(this))
             process.Holders.Add(this);
     }
 
@@ -179,19 +179,19 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         BaseStart(process);
         return this;
     }
-    
+
     /// <summary>
     /// The method responsible for stopping the whole process.
     /// </summary>
     /// <param name="remove">If it should remove from SlProcess object.</param>
     public void BaseStop(bool remove)
     {
-        if(remove && Process != null && Process.Holders.Contains(this))
+        if (remove && Process != null && Process.Holders.Contains(this))
             Process.Holders.Remove(this);
-        
+
         HeldItem.Stop();
         Ender.Kill();
-        
+
         foreach (var i in EndActions)
         {
             try
@@ -204,7 +204,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
             }
         }
     }
-    
+
     /// <summary>
     /// Stop method.
     /// </summary>
@@ -215,7 +215,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         BaseStop(remove);
         return this;
     }
-    
+
     /// <summary>
     /// Constructor of Holder{T} object
     /// </summary>
@@ -227,7 +227,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
         HeldItem = heldItem;
         StopWhen = stopWhen;
         Rate = rate;
-        
+
         Ender = (Loop)EndWhen;
     }
 }

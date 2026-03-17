@@ -1,6 +1,6 @@
 ﻿using VeryEpicEventPlugin.Utilities.Process;
 
-namespace VeryEpicEventPlugin.Struct;
+namespace VeryEpicEventPlugin.Utilities.Struct;
 
 /// <summary>
 /// The holder interface
