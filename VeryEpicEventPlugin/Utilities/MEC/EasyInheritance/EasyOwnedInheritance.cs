@@ -4,7 +4,7 @@ using Exiled.API.Features;
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance;
 
-public class EasyOwnedInheritance<TSelf> where TSelf : EasyOwnedInheritance<TSelf>
+public class EasyOwnedInheritance<TSelf> : InheritanceBase where TSelf : EasyOwnedInheritance<TSelf>
 {
     public static WatchableList<TSelf> Registered { get; } = new(OnAdd, OnRemove, () => {});
 

@@ -4,7 +4,7 @@ using Exiled.API.Features;
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance;
 
-public class SharedInheritance<TOther> where TOther : class
+public class SharedInheritance<TOther> : InheritanceBase where TOther : class
 {
     public static WatchableList<InheritanceHolder<TOther>> Registered { get; } = new(OnAdd, OnRemove, () => {});
 

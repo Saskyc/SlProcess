@@ -22,6 +22,11 @@ public abstract partial class TimingUtil<T> where T : class
     /// </summary>
     public List<Action> AfterActions { get; set; } = [];
 
+    /// <summary>
+    /// Fills list AfterActions with actions that should happen after.
+    /// </summary>
+    /// <param name="afterActions">The actions that will happen when handler is stopped.</param>
+    /// <returns></returns>
     public T After(params Action[] afterActions)
     {
         AfterActions.AddRange(afterActions);
