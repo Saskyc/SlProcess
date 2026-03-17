@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\easyinheritance\\watchablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\easyinheritance\\watchablelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\easyinheritance\\sharedinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\easyinheritance\\sharedinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\easyinheritance\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\easyinheritance\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\easyinheritance\\easyownedinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\easyinheritance\\easyownedinheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\loop\\loop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\loop\\loop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\number\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\number\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\unity\\behaviourutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\unity\\behaviourutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\delayed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\delayed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\dowhen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\dowhen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\simplecoroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\simplecoroutine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\mec\\timingutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\mec\\timingutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\utilities\\events\\exiledhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\utilities\\events\\exiledhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\toying\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\toying\\gameobjectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\struct\\processendcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\struct\\processendcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\struct\\iholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\struct\\iholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\struct\\holder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\struct\\holder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|c:\\users\\martin.saska\\source\\repos\\slprocess\\veryepiceventplugin\\enums\\cloak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F047DDA-56B0-439B-BDC1-988B14861E81}|VeryEpicEventPlugin\\SlProcess.csproj|solutionrelative:veryepiceventplugin\\enums\\cloak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WatchableList.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\WatchableList.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\WatchableList.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\WatchableList.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\WatchableList.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:58.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedInheritance.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\SharedInheritance.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\SharedInheritance.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\SharedInheritance.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\SharedInheritance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:57.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\Test.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\Test.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\Test.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:56.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EasyOwnedInheritance.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\EasyOwnedInheritance.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\EasyOwnedInheritance.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\EasyOwnedInheritance.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\EasyInheritance\\EasyOwnedInheritance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:54.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loop.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Loop\\Loop.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\Loop\\Loop.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Loop\\Loop.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\Loop\\Loop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:48.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Number.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Number\\Number.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\Number\\Number.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Number\\Number.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\Number\\Number.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:43.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BehaviourUtility.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Unity\\BehaviourUtility.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\Unity\\BehaviourUtility.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Unity\\BehaviourUtility.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\Unity\\BehaviourUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:39.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delayed.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Delayed.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\Delayed.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\Delayed.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\Delayed.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:29.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoWhen.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\DoWhen.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\DoWhen.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\DoWhen.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\DoWhen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:31:18.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SimpleCoroutine.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\SimpleCoroutine.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\SimpleCoroutine.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\SimpleCoroutine.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\SimpleCoroutine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:29:32.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimingUtil.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\TimingUtil.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\MEC\\TimingUtil.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\MEC\\TimingUtil.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\MEC\\TimingUtil.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:28:01.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExiledHandler.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\Events\\ExiledHandler.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Utilities\\Events\\ExiledHandler.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Utilities\\Events\\ExiledHandler.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Utilities\\Events\\ExiledHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:27:55.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameObjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Toying\\GameObjectManager.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Toying\\GameObjectManager.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Toying\\GameObjectManager.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Toying\\GameObjectManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:27:47.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProcessEndCondition.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\ProcessEndCondition.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Struct\\ProcessEndCondition.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\ProcessEndCondition.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Struct\\ProcessEndCondition.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFkAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:24:36.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IHolder.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\IHolder.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Struct\\IHolder.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\IHolder.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Struct\\IHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:23:51.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Holder.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\Holder.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Struct\\Holder.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Struct\\Holder.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Struct\\Holder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:16:20.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cloak.cs",
+              "DocumentMoniker": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Enums\\Cloak.cs",
+              "RelativeDocumentMoniker": "VeryEpicEventPlugin\\Enums\\Cloak.cs",
+              "ToolTip": "C:\\Users\\martin.saska\\source\\repos\\SlProcess\\VeryEpicEventPlugin\\Enums\\Cloak.cs",
+              "RelativeToolTip": "VeryEpicEventPlugin\\Enums\\Cloak.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAD4vysAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:15:26.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

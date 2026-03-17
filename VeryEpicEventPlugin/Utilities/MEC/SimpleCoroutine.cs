@@ -5,12 +5,27 @@ using MEC;
 
 namespace VeryEpicEventPlugin.Utilities.MEC;
 
+#nullable enable
+
+/// <summary>
+/// Simplest form of coroutine.
+/// </summary>
 public class SimpleCoroutine
 {
+    /// <summary>
+    /// The handle of the coroutine.
+    /// </summary>
     public CoroutineHandle? Handle { get; private set; }
 
+    /// <summary>
+    /// The original IEnumerator (coroutine) behind the SimpleCoroutine object.
+    /// </summary>
     public IEnumerator<float> Original { get; set; }
     
+    /// <summary>
+    /// Method starting the coroutine.
+    /// </summary>
+    /// <returns></returns>
     public bool Start()
     {
         End();
@@ -27,12 +42,19 @@ public class SimpleCoroutine
         }
     }
 
+    /// <summary>
+    /// Method ending the coroutine.
+    /// </summary>
     public void End()
     {
         if(Handle.HasValue)
             Timing.KillCoroutines(Handle.Value);
     }
     
+    /// <summary>
+    /// Constructor creating SimpleCoroutine object out of coroutine
+    /// </summary>
+    /// <param name="coroutine">IEnumerator{float} object</param>
     public SimpleCoroutine(IEnumerator<float> coroutine)
     {
         Original = coroutine;

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nh47I55lCRI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\martin.saska\\.nuget\\packages\\bepinex.assemblypublicizer.msbuild\\0.5.0-beta.2\\bepinex.assemblypublicizer.msbuild.0.5.0-beta.2.nupkg.sha512",
+    "C:\\Users\\martin.saska\\.nuget\\packages\\exmod.exiled\\9.12.6\\exmod.exiled.9.12.6.nupkg.sha512",
+    "C:\\Users\\martin.saska\\.nuget\\packages\\northwood.labapi\\1.1.5\\northwood.labapi.1.1.5.nupkg.sha512",
+    "C:\\Users\\martin.saska\\.nuget\\packages\\yamldotnet\\11.0.1\\yamldotnet.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -17,6 +17,9 @@ public abstract partial class TimingUtil<T> where T : class
     /// </summary>
     public virtual Cloak Times { get; set; } = Cloak.Second;
 
+    /// <summary>
+    /// The actions executed when TimingUtil{T} is stopped.
+    /// </summary>
     public List<Action> AfterActions { get; set; } = [];
 
     public T After(params Action[] afterActions)
@@ -26,7 +29,7 @@ public abstract partial class TimingUtil<T> where T : class
     }
     
     /// <summary>
-    /// MEC Handles.
+    /// MEC Handle filled and worked with later.
     /// </summary>
     public List<CoroutineHandle> Handle = [];
     
@@ -67,7 +70,7 @@ public abstract partial class TimingUtil<T> where T : class
     }
     
     /// <summary>
-    /// Is any handle valid?
+    /// Checks if any handle is active.
     /// </summary>
     public bool Valid
     {
@@ -87,13 +90,13 @@ public abstract partial class TimingUtil<T> where T : class
     /// <summary>
     /// Class used to implement Run.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>T object</returns>
     public abstract T Run();
     
     /// <summary>
     /// Used to kill all handles and clear them.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>T object</returns>
     public T Stop()
     {
         foreach (var handle in Handle)
@@ -120,7 +123,7 @@ public abstract partial class TimingUtil<T> where T : class
     /// <summary>
     /// Used to pause all handles and <not> clear them.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>T object</returns>
     public T Pause()
     {
         foreach (var handle in Handle)
@@ -134,7 +137,7 @@ public abstract partial class TimingUtil<T> where T : class
     /// <summary>
     /// Class used to Resume all handles (after pause).
     /// </summary>
-    /// <returns></returns>
+    /// <returns>T object</returns>
     public T Resume()
     {
         foreach (var handle in Handle)

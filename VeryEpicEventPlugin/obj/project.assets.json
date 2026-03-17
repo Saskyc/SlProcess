@@ -1,0 +1,297 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "BepInEx.AssemblyPublicizer.MSBuild/0.5.0-beta.2": {
+        "type": "package",
+        "compile": {
+          "lib/net472/AsmResolver.DotNet.dll": {},
+          "lib/net472/AsmResolver.PE.File.dll": {},
+          "lib/net472/AsmResolver.PE.dll": {},
+          "lib/net472/AsmResolver.dll": {},
+          "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll": {},
+          "lib/net472/BepInEx.AssemblyPublicizer.dll": {}
+        },
+        "runtime": {
+          "lib/net472/AsmResolver.DotNet.dll": {},
+          "lib/net472/AsmResolver.PE.File.dll": {},
+          "lib/net472/AsmResolver.PE.dll": {},
+          "lib/net472/AsmResolver.dll": {},
+          "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll": {},
+          "lib/net472/BepInEx.AssemblyPublicizer.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/cs/any/IgnoresAccessChecksToAttribute.cs": {
+            "buildAction": "Compile",
+            "codeLanguage": "cs",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "build/BepInEx.AssemblyPublicizer.MSBuild.props": {}
+        }
+      },
+      "ExMod.Exiled/9.12.6": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomItems.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomRoles.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/LabApi.dll": {},
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomItems.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomRoles.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/LabApi.dll": {},
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
+        }
+      },
+      "Northwood.LabAPI/1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "YamlDotNet": "11.0.1"
+        },
+        "compile": {
+          "lib/net48/LabApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/LabApi.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "YamlDotNet/11.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BepInEx.AssemblyPublicizer.MSBuild/0.5.0-beta.2": {
+      "sha512": "iq7JY2fiJRX7YExsadvMdog9vPSGdbPm3SLRi4/6jzN09d6nIfAm0VpCK2At80OiofYzn2IhbV9ETrQ36EGWNQ==",
+      "type": "package",
+      "path": "bepinex.assemblypublicizer.msbuild/0.5.0-beta.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bepinex.assemblypublicizer.msbuild.0.5.0-beta.2.nupkg.sha512",
+        "bepinex.assemblypublicizer.msbuild.nuspec",
+        "build/BepInEx.AssemblyPublicizer.MSBuild.props",
+        "contentFiles/cs/any/IgnoresAccessChecksToAttribute.cs",
+        "lib/net472/AsmResolver.DotNet.dll",
+        "lib/net472/AsmResolver.PE.File.dll",
+        "lib/net472/AsmResolver.PE.dll",
+        "lib/net472/AsmResolver.dll",
+        "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll",
+        "lib/net472/BepInEx.AssemblyPublicizer.dll",
+        "lib/netstandard2.1/AsmResolver.DotNet.dll",
+        "lib/netstandard2.1/AsmResolver.PE.File.dll",
+        "lib/netstandard2.1/AsmResolver.PE.dll",
+        "lib/netstandard2.1/AsmResolver.dll",
+        "lib/netstandard2.1/BepInEx.AssemblyPublicizer.MSBuild.dll",
+        "lib/netstandard2.1/BepInEx.AssemblyPublicizer.dll"
+      ]
+    },
+    "ExMod.Exiled/9.12.6": {
+      "sha512": "Qv+S0k0lHTc3okgfyrXRiqi9uhDEAwE1S3dR/7khRsG5nZFL6nZUVnOHhQF7nK+ZZeJ9mohohD99Z4gej4apbg==",
+      "type": "package",
+      "path": "exmod.exiled/9.12.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exmod.exiled.9.12.6.nupkg.sha512",
+        "exmod.exiled.nuspec",
+        "images/Exiled_Icon.png",
+        "lib/net48/Assembly-CSharp-Publicized.dll",
+        "lib/net48/CommandSystem.Core.dll",
+        "lib/net48/Exiled.API.dll",
+        "lib/net48/Exiled.API.xml",
+        "lib/net48/Exiled.CreditTags.dll",
+        "lib/net48/Exiled.CreditTags.xml",
+        "lib/net48/Exiled.CustomItems.dll",
+        "lib/net48/Exiled.CustomItems.xml",
+        "lib/net48/Exiled.CustomRoles.dll",
+        "lib/net48/Exiled.CustomRoles.xml",
+        "lib/net48/Exiled.Events.dll",
+        "lib/net48/Exiled.Events.xml",
+        "lib/net48/Exiled.Loader.dll",
+        "lib/net48/Exiled.Loader.xml",
+        "lib/net48/Exiled.Permissions.dll",
+        "lib/net48/Exiled.Permissions.xml",
+        "lib/net48/LabApi.dll",
+        "lib/net48/NorthwoodLib.dll",
+        "lib/net48/YamlDotNet.dll"
+      ]
+    },
+    "Northwood.LabAPI/1.1.5": {
+      "sha512": "xE0j+0+MtD3812A2F4Eh8JF1JwpepCMG6Zds2WDrqDJQe+tUaQBAnUJINEgBP1/INNBzhn/YK5D7veHGU5Z7hg==",
+      "type": "package",
+      "path": "northwood.labapi/1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/net48/LabApi.dll",
+        "lib/net48/LabApi.xml",
+        "northwood.labapi.1.1.5.nupkg.sha512",
+        "northwood.labapi.nuspec"
+      ]
+    },
+    "YamlDotNet/11.0.1": {
+      "sha512": "UvICfSN4gJfAmOsuY/go0hb5SFfr3ZYCXb7jg66yT7kh+wSJEt7tUiwuoCNMpt8ScEXLDwXttpFoWKWeirYU1A==",
+      "type": "package",
+      "path": "yamldotnet/11.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net20/YamlDotNet.dll",
+        "lib/net20/YamlDotNet.xml",
+        "lib/net35-client/YamlDotNet.dll",
+        "lib/net35-client/YamlDotNet.xml",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/netstandard1.3/YamlDotNet.dll",
+        "lib/netstandard1.3/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.11.0.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "BepInEx.AssemblyPublicizer.MSBuild >= 0.5.0-beta.2",
+      "ExMod.Exiled >= 9.12.6",
+      "Northwood.LabAPI >= 1.1.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\martin.saska\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
+      "projectName": "SlProcess",
+      "projectPath": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
+      "packagesPath": "C:\\Users\\martin.saska\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\martin.saska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "BepInEx.AssemblyPublicizer.MSBuild": {
+            "target": "Package",
+            "version": "[0.5.0-beta.2, )"
+          },
+          "ExMod.Exiled": {
+            "target": "Package",
+            "version": "[9.12.6, )"
+          },
+          "Northwood.LabAPI": {
+            "target": "Package",
+            "version": "[1.1.5, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
