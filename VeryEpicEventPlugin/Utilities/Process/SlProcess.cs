@@ -1,6 +1,6 @@
 ﻿using System;
 using MEC;
-using VeryEpicEventPlugin.Struct;
+using VeryEpicEventPlugin.Utilities.Struct;
 
 namespace VeryEpicEventPlugin.Utilities.Process;
 
@@ -50,12 +50,12 @@ public partial class SlProcess
 
         foreach (var i in Loops)
         {
-            i.Run();
+            i.Start(out _);
         }
         
         foreach (var i in Delays)
         {
-            i.Run();
+            i.Start(out _);
         }
 
         foreach (var i in Holders)
@@ -79,12 +79,12 @@ public partial class SlProcess
             
         foreach (var i in Loops)
         {
-            i.Stop();
+            i.Start(out _);
         }
 
         foreach (var i in Delays)
         {
-            i.Stop();
+            i.Start(out _);
         }
 
         foreach (var i in Handles)

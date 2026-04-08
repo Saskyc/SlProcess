@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance
 {
-    internal class InheritanceBase
+    public class InheritanceBase
     {
     }
 }

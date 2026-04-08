@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
+using Exiled.API.Features;
 
 namespace VeryEpicEventPlugin.Utilities.MEC.EasyInheritance;
 

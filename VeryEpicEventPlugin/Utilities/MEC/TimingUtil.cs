@@ -41,7 +41,7 @@ public abstract partial class TimingUtil<T> where T : class
     /// <summary>
     /// MEC Handle of this whole wrapper.
     /// </summary>
-    public CoroutineHandle? Handle = [];
+    public CoroutineHandle? Handle = null;
 
     /// <summary>
     /// Property defining if methods should log exceptions or only return them via <see cref="MethodResult{T}"/>
@@ -67,7 +67,7 @@ public abstract partial class TimingUtil<T> where T : class
         get
         {
             if (!HasHandle) return true;
-            return Handle.IsAliveAndPaused;
+            return Handle.Value.IsAliveAndPaused;
         }
     }
 
@@ -79,7 +79,7 @@ public abstract partial class TimingUtil<T> where T : class
         get
         {
             if (!HasHandle) return false;
-            return Handle.IsRunning;
+            return Handle.Value.IsRunning;
         }
     }
     
@@ -91,7 +91,7 @@ public abstract partial class TimingUtil<T> where T : class
         get
         {
             if (!HasHandle) return false;
-            return Handle.IsValid;
+            return Handle.Value.IsValid;
         }
     }
     
@@ -158,7 +158,11 @@ public abstract partial class TimingUtil<T> where T : class
     /// <returns><see cref="MethodResult{bool}"/> | <see cref="MethodResult{bool}.Exception"/> if any will be of last Action executed.</returns>
     public MethodResult<bool> Kill()
     {
-        Timing.KillCoroutines(Handle);
+        if (HasHandle)
+        {
+            Timing.KillCoroutines(Handle.Value);
+        }
+        
         if(AfterActions == null)
         {
             AfterActions = [];
@@ -205,9 +209,9 @@ public abstract partial class TimingUtil<T> where T : class
     /// <returns>T object</returns>
     public T Pause()
     {
-        if (!HasHandle) return;
-        if (IsPaused) return;
-        Timing.PauseCoroutines(Handle);
+        if (!HasHandle) return this as T;
+        if (IsPaused) return this as T;
+        Timing.PauseCoroutines(Handle.Value);
 
         return this as T;
     }
@@ -219,9 +223,9 @@ public abstract partial class TimingUtil<T> where T : class
     /// <returns>T object</returns>
     public T Resume()
     {
-        if (!HasHandle) return;
-        if (!IsPaused) return;
-        Timing.ResumeCoroutines(Handle);
+        if (!HasHandle) return this as T;
+        if (!IsPaused) return this as T;
+        Timing.ResumeCoroutines(Handle.Value);
         
         return this as T;
     }

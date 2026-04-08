@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net481</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>VeryEpicEventPlugin</RootNamespace>
     <AssemblyName>SlProcess</AssemblyName>
@@ -13,24 +13,20 @@
 
   <!-- Assembly Publicizer (SDK-compatible) -->
   <ItemGroup>
-    <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.5.0-beta.2" />
-    <PackageReference Include="ExMod.Exiled" Version="9.12.6" />
-    <PackageReference Include="Northwood.LabAPI" Version="1.1.5" Publicize="true" />
+    <PackageReference Include="ExMod.Exiled" Version="9.13.3" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <PackageReference Include="Northwood.LabAPI" Version="1.1.6.1" Publicize="true" />
   </ItemGroup>
 
   <!-- Manual Game / EXILED / Unity references -->
   <ItemGroup>
 
-    <Reference Include="Assembly-CSharp">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\Assembly-CSharp-Publicized.dll</HintPath>
-    </Reference>
-
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\AppData\Roaming\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
+      <HintPath>$(EXILED_REFERENCES)\0Harmony.dll</HintPath>
     </Reference>
 
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
 
     <Reference Include="Mirror">
@@ -38,27 +34,27 @@
     </Reference>
 
     <Reference Include="mscorlib">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\mscorlib.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\mscorlib.dll</HintPath>
     </Reference>
 
     <Reference Include="Pooling">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\Pooling.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\Pooling.dll</HintPath>
     </Reference>
 
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\Unity.TextMeshPro.dll</HintPath>
     </Reference>
 
     <Reference Include="UnityEngine">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\UnityEngine.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\UnityEngine.dll</HintPath>
     </Reference>
 
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
 
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\Plocha\Publicizer\Auto\References\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(LTSL_REFS)\UnityEngine.UI.dll</HintPath>
     </Reference>
 
 

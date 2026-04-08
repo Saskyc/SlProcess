@@ -48,7 +48,6 @@ public partial class Delayed : TimingUtil<Delayed>
             try
             {
                 Action.Invoke();
-                return this;
             }
             catch (Exception e)
             {
@@ -56,8 +55,6 @@ public partial class Delayed : TimingUtil<Delayed>
                 {
                     Log.Error(e.Message);
                 }
-              
-                return new MethodResult<Delayed>(this, e);
             }
         });
         

@@ -161,7 +161,7 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
             }
         }
 
-        HeldItem.Run();
+        HeldItem.Start(out _);
         Ender.CreateHandle();
 
         Process = process;
@@ -188,8 +188,9 @@ public record struct Holder<T> : IHolder where T : TimingUtil<T>
     {
         if (remove && Process != null && Process.Holders.Contains(this))
             Process.Holders.Remove(this);
-
-        HeldItem.Stop();
+        
+        HeldItem.Start(out _);
+        
         Ender.Kill();
 
         foreach (var i in EndActions)

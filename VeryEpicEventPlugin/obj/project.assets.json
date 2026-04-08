@@ -1,96 +1,80 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {
-      "BepInEx.AssemblyPublicizer.MSBuild/0.5.0-beta.2": {
+    ".NETFramework,Version=v4.8.1": {
+      "ExMod.Exiled/9.13.3": {
         "type": "package",
         "compile": {
-          "lib/net472/AsmResolver.DotNet.dll": {},
-          "lib/net472/AsmResolver.PE.File.dll": {},
-          "lib/net472/AsmResolver.PE.dll": {},
-          "lib/net472/AsmResolver.dll": {},
-          "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll": {},
-          "lib/net472/BepInEx.AssemblyPublicizer.dll": {}
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomItems.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomRoles.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/LabApi.dll": {},
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
         },
         "runtime": {
-          "lib/net472/AsmResolver.DotNet.dll": {},
-          "lib/net472/AsmResolver.PE.File.dll": {},
-          "lib/net472/AsmResolver.PE.dll": {},
-          "lib/net472/AsmResolver.dll": {},
-          "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll": {},
-          "lib/net472/BepInEx.AssemblyPublicizer.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/cs/any/IgnoresAccessChecksToAttribute.cs": {
-            "buildAction": "Compile",
-            "codeLanguage": "cs",
-            "copyToOutput": false
+          "lib/net48/Assembly-CSharp-Publicized.dll": {},
+          "lib/net48/CommandSystem.Core.dll": {},
+          "lib/net48/Exiled.API.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CreditTags.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomItems.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.CustomRoles.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Events.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Loader.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Exiled.Permissions.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/LabApi.dll": {},
+          "lib/net48/NorthwoodLib.dll": {},
+          "lib/net48/YamlDotNet.dll": {}
+        }
+      },
+      "Lib.Harmony/2.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".pdb;.xml"
           }
         },
-        "build": {
-          "build/BepInEx.AssemblyPublicizer.MSBuild.props": {}
-        }
-      },
-      "ExMod.Exiled/9.12.6": {
-        "type": "package",
-        "compile": {
-          "lib/net48/Assembly-CSharp-Publicized.dll": {},
-          "lib/net48/CommandSystem.Core.dll": {},
-          "lib/net48/Exiled.API.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CreditTags.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CustomItems.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CustomRoles.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Events.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Loader.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Permissions.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/LabApi.dll": {},
-          "lib/net48/NorthwoodLib.dll": {},
-          "lib/net48/YamlDotNet.dll": {}
-        },
         "runtime": {
-          "lib/net48/Assembly-CSharp-Publicized.dll": {},
-          "lib/net48/CommandSystem.Core.dll": {},
-          "lib/net48/Exiled.API.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CreditTags.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CustomItems.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.CustomRoles.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Events.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Loader.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/Exiled.Permissions.dll": {
-            "related": ".xml"
-          },
-          "lib/net48/LabApi.dll": {},
-          "lib/net48/NorthwoodLib.dll": {},
-          "lib/net48/YamlDotNet.dll": {}
+          "lib/net48/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
-      "Northwood.LabAPI/1.1.5": {
+      "Northwood.LabAPI/1.1.6.1": {
         "type": "package",
         "dependencies": {
           "YamlDotNet": "11.0.1"
@@ -122,39 +106,14 @@
     }
   },
   "libraries": {
-    "BepInEx.AssemblyPublicizer.MSBuild/0.5.0-beta.2": {
-      "sha512": "iq7JY2fiJRX7YExsadvMdog9vPSGdbPm3SLRi4/6jzN09d6nIfAm0VpCK2At80OiofYzn2IhbV9ETrQ36EGWNQ==",
+    "ExMod.Exiled/9.13.3": {
+      "sha512": "ZNIBIjsYHBO61FV2WUA2Oa7o8700kDCGqyEomIM60k5V6pDz/UgNK2wrwTH016zOL/hW1VJ4Krp0PxnWFOM6ww==",
       "type": "package",
-      "path": "bepinex.assemblypublicizer.msbuild/0.5.0-beta.2",
+      "path": "exmod.exiled/9.13.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bepinex.assemblypublicizer.msbuild.0.5.0-beta.2.nupkg.sha512",
-        "bepinex.assemblypublicizer.msbuild.nuspec",
-        "build/BepInEx.AssemblyPublicizer.MSBuild.props",
-        "contentFiles/cs/any/IgnoresAccessChecksToAttribute.cs",
-        "lib/net472/AsmResolver.DotNet.dll",
-        "lib/net472/AsmResolver.PE.File.dll",
-        "lib/net472/AsmResolver.PE.dll",
-        "lib/net472/AsmResolver.dll",
-        "lib/net472/BepInEx.AssemblyPublicizer.MSBuild.dll",
-        "lib/net472/BepInEx.AssemblyPublicizer.dll",
-        "lib/netstandard2.1/AsmResolver.DotNet.dll",
-        "lib/netstandard2.1/AsmResolver.PE.File.dll",
-        "lib/netstandard2.1/AsmResolver.PE.dll",
-        "lib/netstandard2.1/AsmResolver.dll",
-        "lib/netstandard2.1/BepInEx.AssemblyPublicizer.MSBuild.dll",
-        "lib/netstandard2.1/BepInEx.AssemblyPublicizer.dll"
-      ]
-    },
-    "ExMod.Exiled/9.12.6": {
-      "sha512": "Qv+S0k0lHTc3okgfyrXRiqi9uhDEAwE1S3dR/7khRsG5nZFL6nZUVnOHhQF7nK+ZZeJ9mohohD99Z4gej4apbg==",
-      "type": "package",
-      "path": "exmod.exiled/9.12.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "exmod.exiled.9.12.6.nupkg.sha512",
+        "exmod.exiled.9.13.3.nupkg.sha512",
         "exmod.exiled.nuspec",
         "images/Exiled_Icon.png",
         "lib/net48/Assembly-CSharp-Publicized.dll",
@@ -178,10 +137,61 @@
         "lib/net48/YamlDotNet.dll"
       ]
     },
-    "Northwood.LabAPI/1.1.5": {
-      "sha512": "xE0j+0+MtD3812A2F4Eh8JF1JwpepCMG6Zds2WDrqDJQe+tUaQBAnUJINEgBP1/INNBzhn/YK5D7veHGU5Z7hg==",
+    "Lib.Harmony/2.4.2": {
+      "sha512": "D2X9ojVjqbqdqWVK3VQETrEb56yVoXxtEp6tP5UvW0PP+bA4uJiswqOxF8GhH02ECwyevUa9vwhwdLzyXfksbw==",
       "type": "package",
-      "path": "northwood.labapi/1.1.5",
+      "path": "lib.harmony/2.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HarmonyLogo.png",
+        "LICENSE",
+        "README.md",
+        "lib.harmony.2.4.2.nupkg.sha512",
+        "lib.harmony.nuspec",
+        "lib/net10.0/0Harmony.dll",
+        "lib/net10.0/0Harmony.pdb",
+        "lib/net10.0/0Harmony.xml",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.pdb",
+        "lib/net35/0Harmony.xml",
+        "lib/net452/0Harmony.dll",
+        "lib/net452/0Harmony.pdb",
+        "lib/net452/0Harmony.xml",
+        "lib/net472/0Harmony.dll",
+        "lib/net472/0Harmony.pdb",
+        "lib/net472/0Harmony.xml",
+        "lib/net48/0Harmony.dll",
+        "lib/net48/0Harmony.pdb",
+        "lib/net48/0Harmony.xml",
+        "lib/net5.0/0Harmony.dll",
+        "lib/net5.0/0Harmony.pdb",
+        "lib/net5.0/0Harmony.xml",
+        "lib/net6.0/0Harmony.dll",
+        "lib/net6.0/0Harmony.pdb",
+        "lib/net6.0/0Harmony.xml",
+        "lib/net7.0/0Harmony.dll",
+        "lib/net7.0/0Harmony.pdb",
+        "lib/net7.0/0Harmony.xml",
+        "lib/net8.0/0Harmony.dll",
+        "lib/net8.0/0Harmony.pdb",
+        "lib/net8.0/0Harmony.xml",
+        "lib/net9.0/0Harmony.dll",
+        "lib/net9.0/0Harmony.pdb",
+        "lib/net9.0/0Harmony.xml",
+        "lib/netcoreapp3.0/0Harmony.dll",
+        "lib/netcoreapp3.0/0Harmony.pdb",
+        "lib/netcoreapp3.0/0Harmony.xml",
+        "lib/netcoreapp3.1/0Harmony.dll",
+        "lib/netcoreapp3.1/0Harmony.pdb",
+        "lib/netcoreapp3.1/0Harmony.xml",
+        "lib/netstandard2.0/_._"
+      ]
+    },
+    "Northwood.LabAPI/1.1.6.1": {
+      "sha512": "xRJpRfS3+i1uvAPM8ZIvJb39C7L6McFudlglMAMTvJv8wmFVaxNO64nWA9/SUI1jmjIrrUbAh7uaYjOsC8FDwA==",
+      "type": "package",
+      "path": "northwood.labapi/1.1.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -189,7 +199,7 @@
         "README.md",
         "lib/net48/LabApi.dll",
         "lib/net48/LabApi.xml",
-        "northwood.labapi.1.1.5.nupkg.sha512",
+        "northwood.labapi.1.1.6.1.nupkg.sha512",
         "northwood.labapi.nuspec"
       ]
     },
@@ -220,44 +230,36 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": [
-      "BepInEx.AssemblyPublicizer.MSBuild >= 0.5.0-beta.2",
-      "ExMod.Exiled >= 9.12.6",
-      "Northwood.LabAPI >= 1.1.5"
+    ".NETFramework,Version=v4.8.1": [
+      "ExMod.Exiled >= 9.13.3",
+      "Lib.Harmony >= 2.4.2",
+      "Northwood.LabAPI >= 1.1.6.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\martin.saska\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\martin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
+      "projectUniqueName": "C:\\Users\\martin\\RiderProjects\\MyServer\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
       "projectName": "SlProcess",
-      "projectPath": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
-      "packagesPath": "C:\\Users\\martin.saska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martin.saska\\Source\\Repos\\SlProcess\\VeryEpicEventPlugin\\obj\\",
+      "projectPath": "C:\\Users\\martin\\RiderProjects\\MyServer\\SlProcess\\VeryEpicEventPlugin\\SlProcess.csproj",
+      "packagesPath": "C:\\Users\\martin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\martin\\RiderProjects\\MyServer\\SlProcess\\VeryEpicEventPlugin\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\martin.saska\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\martin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net48"
+        "net481"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
+        "net481": {
+          "targetAlias": "net481",
           "projectReferences": {}
         }
       },
@@ -271,26 +273,26 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
-      "net48": {
-        "targetAlias": "net48",
+      "net481": {
+        "targetAlias": "net481",
         "dependencies": {
-          "BepInEx.AssemblyPublicizer.MSBuild": {
-            "target": "Package",
-            "version": "[0.5.0-beta.2, )"
-          },
           "ExMod.Exiled": {
             "target": "Package",
-            "version": "[9.12.6, )"
+            "version": "[9.13.3, )"
+          },
+          "Lib.Harmony": {
+            "target": "Package",
+            "version": "[2.4.2, )"
           },
           "Northwood.LabAPI": {
             "target": "Package",
-            "version": "[1.1.5, )"
+            "version": "[1.1.6.1, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

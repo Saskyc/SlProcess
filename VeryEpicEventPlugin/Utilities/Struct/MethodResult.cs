@@ -19,7 +19,7 @@ namespace VeryEpicEventPlugin.Utilities.Struct
         /// <summary>
         /// Exception caused because of the method
         /// </summary>
-        public Exception Exception { get; }
+        public Exception Exception { get; set; }
 
         /// <summary>
         /// Constructor creating <see cref="MethodResult{T}"/>
@@ -38,7 +38,7 @@ namespace VeryEpicEventPlugin.Utilities.Struct
         /// <param name="result"></param>
         public static implicit operator MethodResult<T>(T result)
         {
-            return new MethodResult<T>(T);
+            return new MethodResult<T>(result);
         }
 
         /// <summary>
@@ -54,7 +54,7 @@ namespace VeryEpicEventPlugin.Utilities.Struct
         /// Implicit conversion of <see cref="MethodResult{T}"/> to Exception (if any).
         /// </summary>
         /// <param name="methodResult"></param>
-        public static implicit operator Exception(MethodResult methodResult)
+        public static implicit operator Exception(MethodResult<T> methodResult)
         {
             return methodResult.Exception;
         }
